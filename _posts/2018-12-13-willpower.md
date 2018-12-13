@@ -460,7 +460,7 @@ Choose to MAKE. YOUR. SELF.
   $("input[type='radio']").on('click', function() {
     if($("input[type='radio']:checked").length != 36) {
       console.log("I won't calculate a score until you answer all the questions!");
-
+      // determine which questions are un-answered.
     }
     else {
       console.log('calculating self-control score...');
