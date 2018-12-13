@@ -73,7 +73,7 @@ know it is wrong.
 
 What researchers have found is that if you score high on this scale, then you are likely to have success in various aspects of your life. I'm not disputing that result.
 
-The other test is called the Stroop task. It's notorious for being a pain in the brain. The task is to speak the color of a word, not the word itself. Ypu can try it here:
+The other test is called the Stroop task. It's notorious for being a pain in the brain. The task is to speak the color of a word, not the word itself. You can try it here:
 
 PROGRAM
 
@@ -86,6 +86,7 @@ Alright, so with those two gems of evidence that willpower is overrated out of t
 
 Yes, students who find themselves fighting off various temptations like partying, video games, and participating in social clubs where no work ever gets done, are going to be mentally exhausted and feel stressed as they attempt to use their willpower to try and focus on other things that they probably should be doing, like their homework. Those students who don't experience a lot of temptation are going to be more successful since they don't spend a lot of energy thinking about if they should be doing a keg-stand or studying for an upcoming final. I don't dispute this result either. What I'm having trouble understanding is how this result diminishes the utility of willpower. I can tell you that if you want to experience less temptations in your life, willpower is going to be the key. Let's imagine that you are one of these really unfocused students. You go to parties and take any opportunity you can to socialize and find that, as a result, you're falling behind on your assignments. Maybe your goal is to get an A in some math class but with the way you're currently operating, you won't get there. What other option besides using your mind to resist the temptation of drinking beer with your friends on Friday night do you really have? If you're successful at using your willpower to resist that one night, which does take a lot of effort, you might be able to establish a routine where you study for 2 hours on Friday nights instead of hanging with the bros. And once you have a routine established and see your grades improve, the temptation of going out drinking with your buddies will diminish greatly. Now when a researcher comes along to your university to do one of these studies, you'll be amongst those students who experience fewer temptations. If that researcher were to come to your university at a earlier point, before you established your good study habit, you would have been amongst those students in the study who experienced more temptation.
 
+## The Golden Ones
 The next section of the article looks at the features and behaviors of people who are good at self-control.
 > 1) People who are better at self-control actually enjoy the activities some of us resist — like eating healthy, studying, or exercising.
 
@@ -104,10 +105,11 @@ Yup. Genetics determine how much temptation you're going to experience when you 
 
 Yup. So what's your point? What if you're not born into a wealthy family and you have weak willpower due to genetics. Is that an acceptable excuse for being lazy and unmotivated? No. If you're a normal human then you are capable of developing self-discipline. Here's how you do that. When the moment comes for you to get out of bed and go to the gym, you have to summon the willpower to ignore the part of your mind telling you to go back to sleep or wait for 5 minutes longer. That is willpower. That is the only way you are going to get out of bed that morning and it is the only way to start a new habit that will become easier to execute over time.
 
+## The Point
 Now here's part of the article that really pisses me off:
 > We blame willpower failings for weight gain, even though it’s genetics and our calorie-laden environments conspiring against out waistlines.
 
-I'm trying to understand Brian's perspective here and this is what I'm gathering:  
+I'm really trying hard to understand Brian's perspective here and this is what I'm gathering:  
 If you're otherwise healthy but overweight, it's not your willpower that's the problem. No no, that would be accepting too much responsibility for yourself. It's your genetics and your environment. If you work in a fast-food restaurant while going to school part-time, you're going to be fat because your environment is too stressful. Very few people are going to naturally possess a strong enough willpower to resist eating that Big Mac during their lunch break working for McDonalds. The fact that you don't have enough willpower to stop yourself from indulging isn't your fault though! It's the way you were born and the place you're working in.
 
 I'll tell you one thing I know for certain. A person who believes that they're fat because of where they work and how they're born and doesn't believe their fatness has anything to do with their lack of willpower will never take the steps to develop good habits that will help them lose weight. They will reason that they can't develop more willpower because they weren't born with the self-discipline that some people have. They will also reason that, until their environment changes to be less tempting, they will stay fat. So they will wait for something to change in their environment. If you work for McDonalds I'll let you know that nothing in your work environment is going to change any time soon. So that person will be stuck being fat. It's really that simple. Until that person chooses to jump on the exercise bike after an exhausting shift at McDonalds, they will stay fat. They will stay fat until they decide to work on, develop, and USE their willpower.
@@ -130,47 +132,16 @@ Yes. You will fail to ignore the cookie jar sitting out on the team-space table 
 The article concludes like this:
 > Focusing on failures of willpower leads to shame, both public and private, and holds back our curiosity from finding and enacting solutions that actually work.
 
-Shame or guilt is talked about here as if it's a bad thing preventing us from finding ways to achieve our goals. I've written a piece on why this is non-sense [here].
+Shame or guilt is talked about here as if it's a bad thing preventing us from finding ways to achieve our goals. I've written a piece on why this is non-sense [here](https://www.facebook.com/100004146905580/posts/1190974434384109/), but I'll give a brief explanation here: Shame is a feeling telling you that you've done something wrong and FORCES you to think about it. Once you experience shame, you can try to understand why you're feeling that way and once you figure that out, you can change your behavior so you don't experience it again.
 
-Now, I've been trying to figure out why Brian would want to cast doubt on the idea of willpower being a powerful force for goal achievement. I think the answer is hard to accept but ultimately simple. If we say willpower, the ability to resist our urges to stay in bed, to hide at home, to stop ourselves from ordering the large fries and soda, is overrated, we can feel better about our failings because then it doesn't matter how much willpower we have. There's all this research to suggest willpower doesn't work, right? So if I don't have any willpower then what does it matter? Even if I had it, it's not going to actually help me accomplish anything. What matters is our genetics, and how many temptations our environment presents to us. This perspective on willpower shifts the responsibility for failure off of the individual and onto other factors. That perspective will make us feel better about ourselves. But it's WEAK. I think the heart of Brain's issue with the idea of willpower lies here in his statement:
+Now, I've been trying to figure out why Brian would want to cast doubt on the idea of willpower being a powerful force in the service of goal achievement. I think the answer is hard to accept but ultimately simple. If we say willpower, the ability to resist our urges to stay in bed, to hide at home, to stop ourselves from ordering the large fries and soda, is overrated, we can feel better about our failings because then it doesn't matter how much willpower we have. There's all this research to suggest willpower doesn't work, right? So if I don't have any willpower then what does it matter? Even if I had it, it's not going to actually help me accomplish anything, the thinking goes. What matters is our genetics, and how many temptations our environment presents to us. This perspective on willpower shifts the responsibility for failure off of the individual and onto other factors. That perspective will make us feel better about ourselves. But it's WEAK. I think the heart of Brain's issue with the idea of willpower lies here in his statement:
 > ...failures of inhibition are too often confused for a moral failing.  
 
-If we "confuse failures of inhibition for moral failing" then all of a sudden, we have to accept that we FAIL MORALLY when we FAIL TO REFUSE TO SMOKE THE CIGARETTE. What's the problem with that. If the goal is to quit smoking then not having the strength of willpower to refuse your work buddy's cigarette is indeed a moral failing because you are not living up the goal you have set for yourself. GOOD. Now how are you going to make sure the next time he asks if you want a cigarette, that you're going to say "no"? By casting aside the concept of willpower? Go right ahead and be my guest. I want you to leave willpower behind. I take great pleasure in knowing that you have the mindset that all this talk of self-discipline and willpower is "overrated" and a "myth".
+Failures of inhibition ARE moral failings. If you fail to resist the temptation of punching your boss in the face when he's saying things that don't make sense, that's a moral failing because instead of resolving the issue through conversation you used violence. If we "confuse failures of inhibition for moral failing" then all of a sudden, we have to accept that we FAIL MORALLY when we FAIL TO REFUSE TO SMOKE THE CIGARETTE. What's the problem with that. If the goal is to quit smoking then not having the strength of willpower to refuse your work buddy's cigarette is indeed a moral failing because you are not living up the goal you have set for yourself. GOOD. Now how are you going to make sure the next time he asks if you want a cigarette, that you're going to say "no"? By casting aside the concept of willpower? Go right ahead and be my guest. I want you to leave willpower behind. I take great pleasure in knowing that you have the mindset that all this talk of self-discipline and willpower is "overrated" and a "myth".
 
 Why do I enjoy knowing that you to think this way? That you think willpower is an ailing concept? Because, if you've managed to convince yourself and others through writing this article that you should throw willpower down the drain, that means there'll be more space for ME to grow.
 
-People who self-asses as having more self-control actually do have more self-control. Agreed.
-Tests like the 'Stroop task' are accurate measures of people's ability to summon their willpower. Disagree.
-People with Self-control are better off in their lives. Agreed. In fact I would argue the more self-control one possesses the better off one is in all aspects of life.
-People who have good self-control aren’t necessarily good at inhibiting impulses. Disagree.
-It may be the case that your ability to stop being impulsive doesn’t determine how good at self control you are. Disagree.
-People who are good at self-control don't experience as many temptations. Agreed.
-
-People who are good at self-control structure their lives so they don't have to make decisions. Structuring your life in such a way requires willpower though. It's easier to follow through with something once it becomes a routine. Duh. How do you establish a routine though? Willpower.
-
-Kids who were best at delaying gratification weren't better at resisting temptation? If they came up with a strategy for changing their perception of the marshmellow then they are better at resisting temptation! Silly contradiction.
-
-Create some code that can generate various Stroop and Flanker tasks (find out what the flanker task is).
-
-Habits, personal preferences, and living in a less tempting environment will certainly help you have more self-control. But to make changes like developing a good habit will require willpower at first.
-
-Point out that beacons of pure willpower like David Goggins would likely fail to perform well on the Stroop task just like everyone else. So is the test a good measure of willpower as we understand it? No.
-
-Some people are genetically more gifted at self-control. Great. Does that mean we throw the idea of willpower out of the window? What about people who've made tremendous changes in their lives. Who were once tempted by bad things but now aren't. How did they accomplish their feats without using willpower?
-
-I think the author is making a mistake because they are treating the concepts of self-control and willpower as separate things. If we break down these two concepts they are really the same. I’ll have to do a detailed break-down.
-
-Failures of inhibition are moral failings. If you fail to resist the temptation of punching your boss in the face when he's saying things that don't make sense, that's a moral failing because instead of resolving the issue through conversation you used violence.
-
-If someone is struggling to maintain a diet, how is this evidence that willpower doesn't work?
-
-We shouldn't blame our ability to summon our own willpower if we gain weight. We should instead blame genetics and our "calorie-laden" environment. What a load of shit.
-
-If you have developed an addiction to cocaine, that is your fault. You have made yourself become chemically dependent by failing to utilize your will to suppress your impulse to party, feel good, and have fun with the help of a drug.
-
-Even the author himself admits the utility of willpower to save yourself from falling back into a bad habit.
-
-Focusing on failures of willpower leads to shame. Yup. Shame is a feeling telling you that you've done something wrong and FORCES you to think about it. Once you experience shame, you can try to understand why you're feeling that way and once you figure that out, you can change your behavior so you don't experience it again.
+Focusing on failures of willpower leads to shame. Yup.
 
 How does shame hold back our curiosity about self-control and enacting solutions that will help us towards our goals? If you feel shameful about not waking up when your alarm goes off, and as a result you move your alarm across the room so you have to get up to turn it off, wasn't shame the thing that made us think to do that in the first place?
 
