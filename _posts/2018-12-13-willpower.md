@@ -454,21 +454,17 @@ Don't let nature or nurture make you.
 Choose to MAKE. YOUR. SELF.
 > - Jocko Willink, Discipline Equals Freedom
 
-<script
-  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-  crossorigin="anonymous">
-</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
 <script>
-// first get all the radio buttons that are part of the self-control scale
-$("input[type='radio']").on('click', function() {
-  if($("input[type='radio']:checked").length != 36) {
-    console.log('I won't calculate a score until you answer all the questions!');
+  // first get all the radio buttons that are part of the self-control scale
+  $("input[type='radio']").on('click', function() {
+    if($("input[type='radio']:checked").length != 36) {
+      console.log('I won't calculate a score until you answer all the questions!');
 
-  }
-  else {
-    console.log('calculating self-control score...');
+    }
+    else {
+      console.log('calculating self-control score...');
 
-  }
-});
+    }
+  });
 </script>
