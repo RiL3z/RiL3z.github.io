@@ -370,8 +370,8 @@ know it is wrong.</td>
   </tr>
 </table>
 
-**Score:** <span id="self-control-scale-score">** 80 **</span>
-<p id="self-control-scale-comment">**test comment**</p>
+**Score:** <span id="self-control-scale-score"></span>
+<p id="self-control-scale-comment">test comment</p>
 
 What researchers have found is that if you score high on this scale, then you are likely to have success in various aspects of your life. I'm not disputing that result.
 
@@ -464,9 +464,11 @@ Choose to MAKE. YOUR. SELF.
 $("input[type='radio']").on('click', function() {
   if($("input[type='radio']:checked").length != 36) {
     console.log('I won't calculate a score until you answer all the questions!');
+
   }
   else {
     console.log('calculating self-control score...');
+
   }
 });
 </script>
