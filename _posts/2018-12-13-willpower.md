@@ -459,7 +459,7 @@ Choose to MAKE. YOUR. SELF.
   // first get all the radio buttons that are part of the self-control scale
   $("input[type='radio']").on('click', function() {
     if($("input[type='radio']:checked").length != 36) {
-      console.log('I won't calculate a score until you answer all the questions!');
+      console.log("I won't calculate a score until you answer all the questions!");
 
     }
     else {
