@@ -141,7 +141,7 @@ Failures of inhibition ARE moral failings. If you fail to resist the temptation 
 
 Why do I enjoy knowing that you think this way? That you think willpower is an ailing concept. Why do I relish the fact that you continue to believe that people can't form a diamond out of themselves if they aren't born wealthy, are born to experience more temptations than the average person, and aren't situated in the right environment? Why do I hope you've managed to convince yourself and others that willpower belongs on top of the smelly pile of bad ideas like the flat earth theory? Because that type of thinking is removing yourself from the battlefield of life and you're allowing more space for ME to occupy.
 
-My parting shot is some advice I've received from a very wise man:
+My parting shot is some advice I've received from a very wise man who has written some very good books:
 > The people who are successful decide they are going to be successful. They make that choice. And they make other choices. They decide to study hard. They decide to work hard. They decide to be the first person to get to work and the last to go home. They decide they are going to take on the hard jobs. Take on the challenges. They decide they are going to lead when no one else will. They choose who they are going to hang around and they choose who they will emulate. They choose to become who they want to become--they aren't inhibited by nature or nurture. They overcome both. And I will tell you something else: It is never too late to make that choice.  
 You are never too old to decide where you are going to focus your efforts and push to make the most out of every situation.  
 So. Think not about what you've been through and where you were.  
@@ -151,3 +151,7 @@ Choose to work out and study and eat good food and keep your mind clean.
 Don't let nature or nurture make you.  
 Choose to MAKE. YOUR. SELF.
 > - Jocko Willink, Discipline Equals Freedom
+
+<script>
+console.log("test");
+</script>
