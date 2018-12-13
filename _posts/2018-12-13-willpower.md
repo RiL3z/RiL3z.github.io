@@ -32,44 +32,346 @@ The claim, restated, is this: Impulse control, or willpower, is not an effective
 Or will he?
 
 ## Sciencing the Shit Outta 'Dis Bitch
-The article introduces us to two scientific tests. One test is focused on self-control. It's a test where the user rates themselves on a scale of 1-5 on how well their personal character fits a series of statements. This test is called the "self-control scale". Brian made sure to [link](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=8ACA1F072F02A260F8AC01CFB37B9EF8?doi=10.1.1.613.6909&rep=rep1&type=pdf) out to it in his article and I will do the same here just for completeness's sake. You can even take the test here if you'd like:
-1. I am good at resisting temptation.
-2. I have a hard time breaking bad habits.
-3. I am lazy.
-4. I say inappropriate things.
-5. I never allow myself to lose control.
-6. I do certain things that are bad for me, if they are fun.
-7. People can count on me to keep on schedule.
-8. Getting up in the morning is hard for me.
-9. I have trouble saying no.
-10. I change my mind fairly often.
-11. I blurt out whatever is on my mind.
-12. People would describe me as impulsive.
-13. I refuse things that are bad for me.
-14. I spend too much money.
-15. I keep everything neat.
-16. I am self-indulgent at times.
-17. I wish I had more self-discipline.
-18. I am reliable.
-19. I get carried away by my feelings.
-20. I do many things on the spur of the moment.
-21. I don’t keep secrets very well.
-22. People would say that I have iron self-discipline.
-23. I have worked or studied all night at the last minute.
-24. I’m not easily discouraged.
-25. I’d be better off if I stopped to think before acting.
-26. I engage in healthy practices.
-27. I eat healthy foods.
-28. Pleasure and fun sometimes keep me from getting work done.
-29. I have trouble concentrating.
-30. I am able to work effectively toward long-term goals.
-31. Sometimes I can’t stop myself from doing something, even if I
-know it is wrong.
-32. I often act without thinking through all the alternatives.
-33. I lose my temper too easily.
-34. I often interrupt people.
-35. I sometimes drink or use drugs to excess.
-36. I am always on time.
+The article introduces us to two scientific tests. One test is focused on self-control. It's a test where the user rates themselves on a scale of 1-5 on how well their personal character fits a series of statements. This test is called the "self-control scale". Brian made sure to [link](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=8ACA1F072F02A260F8AC01CFB37B9EF8?doi=10.1.1.613.6909&rep=rep1&type=pdf) out to it in his article and I will do the same here just for completeness's sake. You can even take the test here if you'd like. Answer each statement by selecting one of the options 1-5. Answer with a 1 if your strongly disagree with the statement or answer with a 5 if you strongly agree with the statement or answer with some number in-between depending on your degree of agreement with the statement:
+<table>
+  <tr>
+    <th></th>
+    <th>Question</th>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>I am good at resisting temptation.</td>
+    <td><input type="radio" name="1" value="1"/></td>
+    <td><input type="radio" name="1" value="2"/></td>
+    <td><input type="radio" name="1" value="3"/></td>
+    <td><input type="radio" name="1" value="4"/></td>
+    <td><input type="radio" name="1" value="5"/></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>I have a hard time breaking bad habits.</td>
+    <td><input type="radio" name="R-2" value="1"/></td>
+    <td><input type="radio" name="R-2" value="2"/></td>
+    <td><input type="radio" name="R-2" value="3"/></td>
+    <td><input type="radio" name="R-2" value="4"/></td>
+    <td><input type="radio" name="R-2" value="5"/></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>I am lazy.</td>
+    <td><input type="radio" name="R-3" value="1"/></td>
+    <td><input type="radio" name="R-3" value="2"/></td>
+    <td><input type="radio" name="R-3" value="3"/></td>
+    <td><input type="radio" name="R-3" value="4"/></td>
+    <td><input type="radio" name="R-3" value="5"/></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>I say inappropriate things.</td>
+    <td><input type="radio" name="R-4" value="1"/></td>
+    <td><input type="radio" name="R-4" value="2"/></td>
+    <td><input type="radio" name="R-4" value="3"/></td>
+    <td><input type="radio" name="R-4" value="4"/></td>
+    <td><input type="radio" name="R-4" value="5"/></td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>I never allow myself to lose control.</td>
+    <td><input type="radio" name="5" value="1"/></td>
+    <td><input type="radio" name="5" value="2"/></td>
+    <td><input type="radio" name="5" value="3"/></td>
+    <td><input type="radio" name="5" value="4"/></td>
+    <td><input type="radio" name="5" value="5"/></td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>I do certain things that are bad for me, if they are fun.</td>
+    <td><input type="radio" name="R-6" value="1"/></td>
+    <td><input type="radio" name="R-6" value="2"/></td>
+    <td><input type="radio" name="R-6" value="3"/></td>
+    <td><input type="radio" name="R-6" value="4"/></td>
+    <td><input type="radio" name="R-6" value="5"/></td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>People can count on me to keep on schedule.</td>
+    <td><input type="radio" name="7" value="1"/></td>
+    <td><input type="radio" name="7" value="2"/></td>
+    <td><input type="radio" name="7" value="3"/></td>
+    <td><input type="radio" name="7" value="4"/></td>
+    <td><input type="radio" name="7" value="5"/></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Getting up in the morning is hard for me.</td>
+    <td><input type="radio" name="R-8" value="1"/></td>
+    <td><input type="radio" name="R-8" value="2"/></td>
+    <td><input type="radio" name="R-8" value="3"/></td>
+    <td><input type="radio" name="R-8" value="4"/></td>
+    <td><input type="radio" name="R-8" value="5"/></td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>I have trouble saying no.</td>
+    <td><input type="radio" name="R-9" value="1"/></td>
+    <td><input type="radio" name="R-9" value="2"/></td>
+    <td><input type="radio" name="R-9" value="3"/></td>
+    <td><input type="radio" name="R-9" value="4"/></td>
+    <td><input type="radio" name="R-9" value="5"/></td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>I change my mind fairly often.</td>
+    <td><input type="radio" name="R-10" value="1"/></td>
+    <td><input type="radio" name="R-10" value="2"/></td>
+    <td><input type="radio" name="R-10" value="3"/></td>
+    <td><input type="radio" name="R-10" value="4"/></td>
+    <td><input type="radio" name="R-10" value="5"/></td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>I blurt out whatever is on my mind.</td>
+    <td><input type="radio" name="R-11" value="1"/></td>
+    <td><input type="radio" name="R-11" value="2"/></td>
+    <td><input type="radio" name="R-11" value="3"/></td>
+    <td><input type="radio" name="R-11" value="4"/></td>
+    <td><input type="radio" name="R-11" value="5"/></td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>People would describe me as impulsive.</td>
+    <td><input type="radio" name="R-12" value="1"/></td>
+    <td><input type="radio" name="R-12" value="2"/></td>
+    <td><input type="radio" name="R-12" value="3"/></td>
+    <td><input type="radio" name="R-12" value="4"/></td>
+    <td><input type="radio" name="R-12" value="5"/></td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>I refuse things that are bad for me.</td>
+    <td><input type="radio" name="13" value="1"/></td>
+    <td><input type="radio" name="13" value="2"/></td>
+    <td><input type="radio" name="13" value="3"/></td>
+    <td><input type="radio" name="13" value="4"/></td>
+    <td><input type="radio" name="13" value="5"/></td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>I spend too much money.</td>
+    <td><input type="radio" name="R-14" value="1"/></td>
+    <td><input type="radio" name="R-14" value="2"/></td>
+    <td><input type="radio" name="R-14" value="3"/></td>
+    <td><input type="radio" name="R-14" value="4"/></td>
+    <td><input type="radio" name="R-14" value="5"/></td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>I keep everything neat.</td>
+    <td><input type="radio" name="15" value="1"/></td>
+    <td><input type="radio" name="15" value="2"/></td>
+    <td><input type="radio" name="15" value="3"/></td>
+    <td><input type="radio" name="15" value="4"/></td>
+    <td><input type="radio" name="15" value="5"/></td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>I am self-indulgent at times.</td>
+    <td><input type="radio" name="R-16" value="1"/></td>
+    <td><input type="radio" name="R-16" value="2"/></td>
+    <td><input type="radio" name="R-16" value="3"/></td>
+    <td><input type="radio" name="R-16" value="4"/></td>
+    <td><input type="radio" name="R-16" value="5"/></td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>I wish I had more self-discipline.</td>
+    <td><input type="radio" name="R-17" value="1"/></td>
+    <td><input type="radio" name="R-17" value="2"/></td>
+    <td><input type="radio" name="R-17" value="3"/></td>
+    <td><input type="radio" name="R-17" value="4"/></td>
+    <td><input type="radio" name="R-17" value="5"/></td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>I am reliable.</td>
+    <td><input type="radio" name="18" value="1"/></td>
+    <td><input type="radio" name="18" value="2"/></td>
+    <td><input type="radio" name="18" value="3"/></td>
+    <td><input type="radio" name="18" value="4"/></td>
+    <td><input type="radio" name="18" value="5"/></td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>I get carried away by my feelings.</td>
+    <td><input type="radio" name="R-19" value="1"/></td>
+    <td><input type="radio" name="R-19" value="2"/></td>
+    <td><input type="radio" name="R-19" value="3"/></td>
+    <td><input type="radio" name="R-19" value="4"/></td>
+    <td><input type="radio" name="R-19" value="5"/></td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>I do many things on the spur of the moment.</td>
+    <td><input type="radio" name="R-20" value="1"/></td>
+    <td><input type="radio" name="R-20" value="2"/></td>
+    <td><input type="radio" name="R-20" value="3"/></td>
+    <td><input type="radio" name="R-20" value="4"/></td>
+    <td><input type="radio" name="R-20" value="5"/></td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>I don’t keep secrets very well.</td>
+    <td><input type="radio" name="R-21" value="1"/></td>
+    <td><input type="radio" name="R-21" value="2"/></td>
+    <td><input type="radio" name="R-21" value="3"/></td>
+    <td><input type="radio" name="R-21" value="4"/></td>
+    <td><input type="radio" name="R-21" value="5"/></td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>People would say that I have iron self-discipline.</td>
+    <td><input type="radio" name="22" value="1"/></td>
+    <td><input type="radio" name="22" value="2"/></td>
+    <td><input type="radio" name="22" value="3"/></td>
+    <td><input type="radio" name="22" value="4"/></td>
+    <td><input type="radio" name="22" value="5"/></td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>I have worked or studied all night at the last minute.</td>
+    <td><input type="radio" name="R-23" value="1"/></td>
+    <td><input type="radio" name="R-23" value="2"/></td>
+    <td><input type="radio" name="R-23" value="3"/></td>
+    <td><input type="radio" name="R-23" value="4"/></td>
+    <td><input type="radio" name="R-23" value="5"/></td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>I’m not easily discouraged.</td>
+    <td><input type="radio" name="24" value="1"/></td>
+    <td><input type="radio" name="24" value="2"/></td>
+    <td><input type="radio" name="24" value="3"/></td>
+    <td><input type="radio" name="24" value="4"/></td>
+    <td><input type="radio" name="24" value="5"/></td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>I’d be better off if I stopped to think before acting.</td>
+    <td><input type="radio" name="R-25" value="1"/></td>
+    <td><input type="radio" name="R-25" value="2"/></td>
+    <td><input type="radio" name="R-25" value="3"/></td>
+    <td><input type="radio" name="R-25" value="4"/></td>
+    <td><input type="radio" name="R-25" value="5"/></td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>I engage in healthy practices.</td>
+    <td><input type="radio" name="26" value="1"/></td>
+    <td><input type="radio" name="26" value="2"/></td>
+    <td><input type="radio" name="26" value="3"/></td>
+    <td><input type="radio" name="26" value="4"/></td>
+    <td><input type="radio" name="26" value="5"/></td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>I eat healthy foods.</td>
+    <td><input type="radio" name="27" value="1"/></td>
+    <td><input type="radio" name="27" value="2"/></td>
+    <td><input type="radio" name="27" value="3"/></td>
+    <td><input type="radio" name="27" value="4"/></td>
+    <td><input type="radio" name="27" value="5"/></td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Pleasure and fun sometimes keep me from getting work done.</td>
+    <td><input type="radio" name="R-28" value="1"/></td>
+    <td><input type="radio" name="R-28" value="2"/></td>
+    <td><input type="radio" name="R-28" value="3"/></td>
+    <td><input type="radio" name="R-28" value="4"/></td>
+    <td><input type="radio" name="R-28" value="5"/></td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>I have trouble concentrating.</td>
+    <td><input type="radio" name="R-29" value="1"/></td>
+    <td><input type="radio" name="R-29" value="2"/></td>
+    <td><input type="radio" name="R-29" value="3"/></td>
+    <td><input type="radio" name="R-29" value="4"/></td>
+    <td><input type="radio" name="R-29" value="5"/></td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>I am able to work effectively toward long-term goals.</td>
+    <td><input type="radio" name="30" value="1"/></td>
+    <td><input type="radio" name="30" value="2"/></td>
+    <td><input type="radio" name="30" value="3"/></td>
+    <td><input type="radio" name="30" value="4"/></td>
+    <td><input type="radio" name="30" value="5"/></td>
+  </tr>
+  <tr>
+    <td>31</td>
+    <td>Sometimes I can’t stop myself from doing something, even if I
+know it is wrong.</td>
+    <td><input type="radio" name="R-31" value="1"/></td>
+    <td><input type="radio" name="R-31" value="2"/></td>
+    <td><input type="radio" name="R-31" value="3"/></td>
+    <td><input type="radio" name="R-31" value="4"/></td>
+    <td><input type="radio" name="R-31" value="5"/></td>
+  </tr>
+  <tr>
+    <td>32</td>
+    <td>I often act without thinking through all the alternatives.</td>
+    <td><input type="radio" name="R-32" value="1"/></td>
+    <td><input type="radio" name="R-32" value="2"/></td>
+    <td><input type="radio" name="R-32" value="3"/></td>
+    <td><input type="radio" name="R-32" value="4"/></td>
+    <td><input type="radio" name="R-32" value="5"/></td>
+  </tr>
+  <tr>
+    <td>33</td>
+    <td>I lose my temper too easily.</td>
+    <td><input type="radio" name="R-33" value="1"/></td>
+    <td><input type="radio" name="R-33" value="2"/></td>
+    <td><input type="radio" name="R-33" value="3"/></td>
+    <td><input type="radio" name="R-33" value="4"/></td>
+    <td><input type="radio" name="R-33" value="5"/></td>
+  </tr>
+  <tr>
+    <td>34</td>
+    <td>I often interrupt people.</td>
+    <td><input type="radio" name="R-34" value="1"/></td>
+    <td><input type="radio" name="R-34" value="2"/></td>
+    <td><input type="radio" name="R-34" value="3"/></td>
+    <td><input type="radio" name="R-34" value="4"/></td>
+    <td><input type="radio" name="R-34" value="5"/></td>
+  </tr>
+  <tr>
+    <td>35</td>
+    <td>I sometimes drink or use drugs to excess.</td>
+    <td><input type="radio" name="R-35" value="1"/></td>
+    <td><input type="radio" name="R-35" value="2"/></td>
+    <td><input type="radio" name="R-35" value="3"/></td>
+    <td><input type="radio" name="R-35" value="4"/></td>
+    <td><input type="radio" name="R-35" value="5"/></td>
+  </tr>
+  <tr>
+    <td>36</td>
+    <td>I am always on time.</td>
+    <td><input type="radio" name="36" value="1"/></td>
+    <td><input type="radio" name="36" value="2"/></td>
+    <td><input type="radio" name="36" value="3"/></td>
+    <td><input type="radio" name="36" value="4"/></td>
+    <td><input type="radio" name="36" value="5"/></td>
+  </tr>
+</table>
+
+**Score: <p id="self-control-scale-score"></p>**
+**<p id="self-control-scale-comment">test comment</p>**
 
 What researchers have found is that if you score high on this scale, then you are likely to have success in various aspects of your life. I'm not disputing that result.
 
@@ -152,6 +454,11 @@ Don't let nature or nurture make you.
 Choose to MAKE. YOUR. SELF.
 > - Jocko Willink, Discipline Equals Freedom
 
+<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous">
+</script>
 <script>
 console.log("test");
 </script>
