@@ -493,6 +493,7 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
           score += parseInt($(this).attr('value'));
         }
         score = (score / 180) * 100;
+        console.log(score);
         score = Math.round(score);
         if(score >= 90) {
           $("#self-control-scale-score").css('color', 'rgb(0,255,0)');
@@ -516,6 +517,7 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
         }
         else {
           $("#self-control-scale-score").css('color', 'rgb(255,0,0)');
+            $("#self-control-scale-comment").css('color', 'rgb(255,0,0)');
           $("#self-control-scale-comment").text("You couldn't resist eating a cookie if your life depended on it.");
         }
         $("#self-control-scale-score").text(score);
