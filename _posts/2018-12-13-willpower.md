@@ -485,6 +485,16 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
     }
     else {
       console.log('calculating self-control score...');
+      let score = 0;
+      $("input[type='radio']:checked").each(function() {
+        if($(this).attr('name')[0] == 'R') {
+          score += 6 - parseInt($(this).attr('value'));
+        }
+        else {
+          score += parseInt($(this).attr('value'));
+        }
+        $("#self-control-scale-score").text(score);
+      });
     }
   });
 </script>
