@@ -379,7 +379,7 @@ know it is wrong.</td>
 **Score:** <span id="self-control-scale-score"></span>
 <p id="self-control-scale-comment"></p>
 
-How'd you do? I scored a SCORE. What researchers have found is that if you score high on this scale, then you are likely to have success in various aspects of your life. I'm not disputing that result.
+How'd you do? I scored a 88. What researchers have found is that if you score high on this scale, then you are likely to have success in various aspects of your life. I'm not disputing that result.
 
 The other test is called the Stroop task. It's notorious for being a pain in the brain. The task is to speak the color of a word, not the word itself. You can try it here by choosing the number of words you'd like to generate and clicking the button:
 
@@ -419,7 +419,7 @@ Now here's part of the article that really pisses me off:
 > We blame willpower failings for weight gain, even though it’s genetics and our calorie-laden environments conspiring against out waistlines.
 
 I'm really trying hard to understand Brian's perspective here and this is what I'm gathering:  
-If you're otherwise healthy but overweight, it's not your willpower that's the problem. No no, that would be accepting too much responsibility for yourself. It's your genetics and your environment. If you work in a fast-food restaurant while going to school part-time, you're going to be fat because your environment is too stressful. Very few people are going to naturally possess a strong enough willpower to resist eating that Big Mac during their lunch break working for McDonalds. The fact that you don't have enough willpower to stop yourself from indulging isn't your fault though! It's the way you were born and the place you're working in.
+If you're otherwise healthy but overweight, it's not your willpower that's the problem. No no, that would be burdening yourself with too much accountability. It's your genetics and your environment. If you work in a fast-food restaurant while going to school part-time, you're going to be fat because your environment is too stressful. Very few people are going to naturally possess a strong enough willpower to resist eating that Big Mac during their lunch break working for McDonalds. The fact that you don't have enough willpower to stop yourself from indulging isn't your fault though! It's the way you were born and the place you're working in.
 
 I'll tell you one thing I know for certain. A person who believes that they're fat because of where they work and how they're born and doesn't believe their fatness has anything to do with their lack of willpower will never take the steps to develop good habits that will help them lose weight. They will reason that they can't develop more willpower because they weren't born with the self-discipline that some people have. They will also reason that, until their environment changes to be less tempting, they will stay fat. So they will wait for something to change in their environment. If you work for McDonalds I'll let you know that nothing in your work environment is going to change any time soon. So that person will be stuck being fat. It's really that simple. Until that person chooses to jump on the exercise bike after an exhausting shift at McDonalds, they will stay fat. They will stay fat until they decide to work on, develop, and USE their willpower.
 
