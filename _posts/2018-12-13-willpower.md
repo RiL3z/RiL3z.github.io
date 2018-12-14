@@ -1,12 +1,12 @@
 # Why Willpower Can't Be Overrated
-I was scrolling around on twitter and ran across an article titled [“Why Willpower is overrated”](https://www.vox.com/science-and-health/2018/1/15/16863374/willpower-overrated-self-control-psychology). Since I’m obsessed with the concepts of self-control, willpower, and discipline, the article’s headline, “Why Willpower is overrated”, caught my attention. I have long believed that strong willpower is one of the most important things a human can possess. I think it’s hard to overstate how important of a concept it is to me. The claim “Willpower is overrated” runs directly counter that belief, so I was interested to see what I could learn.
+I was scrolling around on [twitter](https://twitter.com/b_resnick/status/1071060695675035650?s=21) and ran across an article titled [“Why Willpower is overrated”](https://www.vox.com/science-and-health/2018/1/15/16863374/willpower-overrated-self-control-psychology). Since I’m obsessed with the concepts of self-control, willpower, and discipline, the article’s headline, “Why Willpower is overrated”, caught my attention. I have long believed that strong willpower is one of the most important things a human can possess. I think it’s hard to overstate how important of a concept it is to me. The claim “Willpower is overrated” runs directly counter that belief, so I was interested to see what I could learn.
 
 These types of articles are always accompanied with a flashy graphic that abstractly represents the point that the author is making. This particular article depicts two guys in suites. Why is it always fucking guys in suites? Neurotic rants aside (although now that I come to think of it, this whole post is one neurotic rant), one of the guys is slouched over, obviously walking at a snail’s pace, and seems to be expending a great amount of effort reaching for a carrot in front of him. The other guy though, oh man, he is sprinting and reaching out toward some ice-cream while breaking a new personal speed record. The visual metaphor is obvious. The carrot is less appealing than the ice-cream so the slouching-man has to exercise more effortful control to pursue the carrot and that results in him expending all his motivation so he has no energy to run. The running-man is happy to pursue the ice-cream so running after it is easy for him. He’s chasing what he wants impulsively.
 Underneath the picture lies a tag-line with the assertion “Relying on Willpower is a recipe for failure.”
 ![chase 'dat carrot](/assets/chasing_shit.jpg)
 
 ## Define "Willpower"
-First of all, I want to establish a clear idea of what we're talking about when we use a word like "willpower" since this idea is referenced heavily in the article. Let's take a careful look at the definition. There are a great many definitions from various sources that we could use and we could argue all day about which definition is the proper one but, frankly, that's a waste of time. We're going to boil this concept down into something we can understand at a deeper level. Here's the definition that I'm working from, pulled straight from [google](https://www.google.com/search?rlz=1CDGOYI_enUS728US729&hl=en-US&ei=_L0RXJPuJszEjwSq1IPoDg&q=willpower+definition&oq=willpower+definition&gs_l=psy-ab.3..35i39j0l3j0i22i30l6.6150.10240..10498...1.0..4.255.3683.4j22j3....2..0....1..gws-wiz.....6..0i71j0i131i20i263j0i131j0i67j0i131i67j0i20i263j0i22i10i30.qRc4Wv0U9Q0):
+First of all, I want to establish a clear idea of what we're talking about when we use a word like "willpower", since this idea is referenced heavily in the article. Let's take a careful look at the definition. There are a great many definitions from various sources that we could use and we could argue all day about which definition is the proper one but, frankly, that's a waste of time. We're going to boil this concept down into something we can understand at a deeper level. Here's the definition that I'm working from, pulled straight from [google](https://www.google.com/search?rlz=1CDGOYI_enUS728US729&hl=en-US&ei=_L0RXJPuJszEjwSq1IPoDg&q=willpower+definition&oq=willpower+definition&gs_l=psy-ab.3..35i39j0l3j0i22i30l6.6150.10240..10498...1.0..4.255.3683.4j22j3....2..0....1..gws-wiz.....6..0i71j0i131i20i263j0i131j0i67j0i131i67j0i20i263j0i22i10i30.qRc4Wv0U9Q0):
 ```
 willpower
 control exerted to do something or restrain impulses
@@ -23,16 +23,17 @@ conscious work performed by the mind to act against impulses
 ```
 If we look now, I think this definition of willpower makes the most sense. Let's think of an example where this definition of willpower applies. Let's say it's a scorchingly hot day and you're walking past an ice-cream truck. Let's also say you're on a diet to lose weight and one of the tenants of the diet is to cut down on dairy consumption. One impulse you might have in this situation is to buy an ice-cream cone from the truck at the expense of following your diet. If, however, you wanted to stay on the path to your goal of losing weight, you would HAVE to make your mind perform some work. Your inner dialogue might look something like, "no mind, I know that ice-cream looks excellent in this blazingly sticky weather but I've made a commitment to follow my new diet."
 
-The article is written by a gentleman of the name Brian Resnick. Instead of referring to "the author" throughout this piece, I'm just going to say Brian.
+The article is written by a gentleman of the name Brian Resnick. Instead of referring to "the author" throughout this piece, I'm just going to use his name.
 
 The article establishes it's central claim within the fourth paragraph.
 > But this idea, that people have self-control because they’re good at willpower, is looking more and more like a myth. It turns out that self-control, and all the benefits from it, may not be related to inhibiting impulses at all. And once we cast aside the idea of willpower, we can better understand what actually works to accomplish goals, and hit those New Year’s resolutions.
 
 The claim, restated, is this: Impulse control, or willpower, is not an effective means by which we can accomplish goals. Brian is going to use the sharpened sword of science to slice through our precious and deeply held misconception that willpower is at the root of all the beneficial changes that we make in our lives and show us what the real key to success is.  
+
 Or will he?
 
 ## Sciencing the Shit Outta 'Dis Bitch
-The article introduces us to two scientific tests. One test is focused on self-control. It's a test where the user rates themselves on a scale of 1-5 on how well their personal character fits a series of statements. This test is called the "self-control scale". Brian made sure to [link](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=8ACA1F072F02A260F8AC01CFB37B9EF8?doi=10.1.1.613.6909&rep=rep1&type=pdf) out to it in his article and I will do the same here just for completeness's sake. You can even take the test here if you'd like. Answer each statement by selecting one of the options 1-5. Answer with a 1 if your strongly disagree with the statement or answer with a 5 if you strongly agree with the statement or answer with some number in-between depending on your degree of agreement with the statement:
+The article introduces us to two scientific tests. One test is focused on self-control. It's a test where the user rates themselves on a scale of 1-5 on how well their personal character fits a series of statements. This test is called the "self-control scale". Brian made sure to [link](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=8ACA1F072F02A260F8AC01CFB37B9EF8?doi=10.1.1.613.6909&rep=rep1&type=pdf) out to it in his article and I will do the same here just for completeness's sake. You can even take the test here if you'd like. Answer each statement by selecting one of the options labeled 1-5. Answer with a 1 if your strongly disagree with the statement or answer with a 5 if you strongly agree with the statement or answer with some number in-between depending on your degree of agreement with the statement:
 <table>
   <tr>
     <th></th>
@@ -373,7 +374,7 @@ know it is wrong.</td>
 **Score:** <span id="self-control-scale-score"></span>
 <p id="self-control-scale-comment">test comment</p>
 
-What researchers have found is that if you score high on this scale, then you are likely to have success in various aspects of your life. I'm not disputing that result.
+How'd you do? I scored a SCORE. What researchers have found is that if you score high on this scale, then you are likely to have success in various aspects of your life. I'm not disputing that result.
 
 The other test is called the Stroop task. It's notorious for being a pain in the brain. The task is to speak the color of a word, not the word itself. You can try it here:
 
@@ -434,16 +435,14 @@ Yes. You will fail to ignore the cookie jar sitting out on the team-space table 
 The article concludes like this:
 > Focusing on failures of willpower leads to shame, both public and private, and holds back our curiosity from finding and enacting solutions that actually work.
 
-Shame or guilt is talked about here as if it's a bad thing preventing us from finding ways to achieve our goals. I've written a piece on why this is non-sense [here](https://www.facebook.com/100004146905580/posts/1190974434384109/), but I'll give a brief explanation here: Shame is a feeling telling you that you've done something wrong and that feeling FORCES you to think about the wrong thing that you did. Once you experience shame, you can try to understand why you're feeling that way and once you figure that out, you can change your behavior so you don't experience it again. If you feel shameful about not waking up when your alarm goes off, and as a result you move your alarm across the room so you have to get up to turn it off, wasn't shame the thing that made you think to do that in the first place?
+Shame or guilt is talked about here as if it's a bad thing preventing us from finding ways to achieve our goals. I've written a piece that addresses why this perceiving guilt negatively is non-sense [here](https://www.facebook.com/100004146905580/posts/1190974434384109/), but I'll give a brief explanation here: Shame is a feeling telling you that you've done something wrong and that feeling FORCES you to think about the wrong thing that you did. Once you experience shame, you can try to understand why you're feeling that way and once you figure that out, you can change your behavior so you don't experience it again. If you feel shameful about not waking up when your alarm goes off, and as a result you move your alarm across the room so you have to get up to turn it off, wasn't shame the thing that made you think to do that in the first place?
 
-Now, I've been trying to figure out why Brian would want to cast doubt on the idea of willpower being a powerful force in the service of goal achievement. I think the answer is hard to accept but ultimately simple. If we say willpower, the ability to resist our urges to stay in bed, to hide at home, to stop ourselves from ordering the large fries and soda, is overrated, we can feel better about our failings because then it doesn't matter how much willpower we have. There's all this research to suggest willpower doesn't work, right? So if I don't have any willpower then what does it matter? Even if I had it, it's not going to actually help me accomplish anything, the thinking goes. What matters is our genetics, and how many temptations our environment presents to us. This perspective on willpower shifts the responsibility for failure off of the individual and onto other factors. That perspective will make us feel better about ourselves. But it's WEAK. I think the heart of Brain's issue with the idea of willpower lies here in his statement:
+Now, I've been trying to figure out why Brian would want to cast doubt on the idea of willpower as a powerful tool to leverage in the pursuit of goal achievement. I think the answer is hard to accept but ultimately simple. If we say willpower, the ability to resist our urges to stay in bed, to hide at home, to stop ourselves from ordering the large fries and soda, is overrated, we can feel better about our failings because then it doesn't matter how much willpower we have. There's all this research to suggest willpower doesn't work, right? So if I don't have any willpower then what does it matter? Even if I had it, it's not going to actually help me accomplish anything, the thinking goes. What matters is our genetics, and how many temptations our environment presents to us. This perspective on willpower shifts the responsibility for failure off of the individual and onto other factors. That perspective will make us feel better about ourselves. But it's WEAK. I think the heart of Brian's issue with the idea of willpower lies here in his statement:
 > ...failures of inhibition are too often confused for a moral failing.  
 
-Failures of inhibition ARE moral failings. If you fail to resist the temptation of punching your boss in the face when he's saying things that don't make sense, that's a moral failing because instead of resolving the issue through conversation you used violence. If we "confuse failures of inhibition for moral failing" then all of a sudden, we have to accept that we FAIL MORALLY when we FAIL TO REFUSE TO SMOKE THE CIGARETTE. I fail to see the problem with that. If the goal is to quit smoking then not having the strength of willpower to refuse your work buddy's cigarette is indeed a moral failing because you are not living up the goal you have set for yourself. GOOD. Now how are you going to make sure the next time he asks if you want a cigarette, that you're going to say "no"? By casting aside the concept of willpower? Go right ahead and be my guest. I want you to leave willpower behind. I take great pleasure in knowing that you have the mindset that all this talk of self-discipline and willpower is "overrated" and a "myth".
+Failures of inhibition ARE moral failings. If you fail to resist the temptation of punching your boss in the face when he's saying things that don't make sense, that's a moral failing because instead of resolving the issue through conversation you used violence. If we "confuse failures of inhibition for moral failing" then all of a sudden, we have to accept that we FAIL MORALLY when we FAIL TO REFUSE TO SMOKE THE CIGARETTE. I fail to see the problem with that. If the goal is to quit smoking then not having the strength of willpower to refuse your work buddy's cigarette is indeed a moral failing because you are not living up to the goal you have set for yourself. GOOD. Now how are you going to make sure the next time he asks if you want a cigarette, that you're going to say "no"? By casting aside the concept of willpower?
 
-Why do I enjoy knowing that you think this way? That you think willpower is an ailing concept. Why do I relish the fact that you continue to believe that people can't form a diamond out of themselves if they aren't born wealthy, are born to experience more temptations than the average person, and aren't situated in the right environment? Why do I hope you've managed to convince yourself and others that willpower belongs on top of the smelly pile of bad ideas like the flat earth theory? Because that type of thinking is removing yourself from the battlefield of life and you're allowing more space for ME to occupy.
-
-My parting shot is some advice I've received from a very wise man who has written some very good books:
+Here's some advice I've received from a very wise man who has written some very good books:
 > The people who are successful decide they are going to be successful. They make that choice. And they make other choices. They decide to study hard. They decide to work hard. They decide to be the first person to get to work and the last to go home. They decide they are going to take on the hard jobs. Take on the challenges. They decide they are going to lead when no one else will. They choose who they are going to hang around and they choose who they will emulate. They choose to become who they want to become--they aren't inhibited by nature or nurture. They overcome both. And I will tell you something else: It is never too late to make that choice.  
 You are never too old to decide where you are going to focus your efforts and push to make the most out of every situation.  
 So. Think not about what you've been through and where you were.  
@@ -454,17 +453,38 @@ Don't let nature or nurture make you.
 Choose to MAKE. YOUR. SELF.
 > - Jocko Willink, Discipline Equals Freedom
 
+If you want to discard willpower as a useful concept, be my guest. I want you to leave willpower behind. I take great pleasure in knowing that you have the mindset that all this talk of self-discipline and willpower is "overrated" and a "myth". Why do I enjoy knowing that you think this way? That you think willpower is an ailing concept. Why do I relish the fact that you continue to believe that people can't form a diamond out of themselves if they aren't born wealthy or are born to experience more temptations than the average person or aren't situated in the right environment? Why do I hope you've managed to convince yourself and others that willpower belongs on top of the smelly pile of bad ideas like the flat earth theory? Because that type of thinking is removing yourself from the battlefield of life and that's making it easier for ME to dominate.
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
 <script>
   // first get all the radio buttons that are part of the self-control scale
   $("input[type='radio']").on('click', function() {
     if($("input[type='radio']:checked").length != 36) {
       console.log("I won't calculate a score until you answer all the questions!");
+      let unanswered_questions = [];
       // determine which questions are un-answered.
+      let trs = $("tr");
+      for(let i = 1; i < trs.length; i ++) {
+        let radios = $(trs[i]).find("input[type='radio']:checked");
+        if($(radios).length == 0) {
+          unanswered_questions.push(i);
+        }
+      }
+
+      let questions_string = '';
+      for(let i = 0; i < unanswered_questions.length; i ++) {
+        if(i != unanswered_questions.length - 1) {
+          questions_string += unanswered_questions[i] + ', ';
+        }
+        else {
+          questions_string += unanswered_questions;
+        }
+      }
+      let display_string = 'Questions un-answered: ' + questions_string;
+      console.log(display_string);
     }
     else {
       console.log('calculating self-control score...');
-
     }
   });
 </script>
