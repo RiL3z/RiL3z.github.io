@@ -469,7 +469,7 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
     let color_words = {
       'blue': 'rgb(0,0,255)',
       'green': 'rgb(0,255,0)',
-      'yellow': 'rgb(255,255,0)',
+      'yellow': 'rgb(232,232,0)',
       'red': 'rgb(255,0,0)',
       'pink': 'rgb(255,172,226)',
       'orange': 'rgb(250,173,14)',
