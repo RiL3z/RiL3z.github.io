@@ -376,8 +376,9 @@ know it is wrong.</td>
 
 How'd you do? I scored a SCORE. What researchers have found is that if you score high on this scale, then you are likely to have success in various aspects of your life. I'm not disputing that result.
 
-The other test is called the Stroop task. It's notorious for being a pain in the brain. The task is to speak the color of a word, not the word itself. You can try it here:
+The other test is called the Stroop task. It's notorious for being a pain in the brain. The task is to speak the color of a word, not the word itself. You can try it here by choosing the number of words you'd like to generate and clicking the button:
 
+<input id="word_quantity" type="number" name="quantity" min="1" max="30"/><input id="generate_stroop_task" type="button" value="Generate Stroop task!"/>
 <div id="stroop_task"></div>
 
 How'd you do? What researchers found is that almost everyone sucks at it. Why is it so hard? I can tell you why. When you see the word "red" but the word itself is colored blue, you want to read out loud the word "red". The reason your brain wants to read the word "red" when you know the task is to say the color of the word, which is blue in this case, is because your mind has been trained your whole life to READ WORDS when they appear. You haven't been practicing for years to say the color that a word has when you see it. Tell me, how am I supposed to complete the Stroop task if I don't perform conscious work to act against my impulse to read the word instead of the color!? If willpower wasn't useful in accomplishing the task of reading out the color, then I wouldn't be able to complete the Stroop task.
@@ -520,7 +521,9 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
     return html;
   }
 
-  $("#stroop_task").html(render_stroop_task(generate_stroop_task(12)));
+  $("#generate_stroop_task").click(function() {
+    $("#stroop_task").html(render_stroop_task(generate_stroop_task(parseInt($("#word_quantity").attr('value')))));
+  });
 
   // first get all the radio buttons that are part of the self-control scale
   $("input[type='radio']").on('click', function() {
