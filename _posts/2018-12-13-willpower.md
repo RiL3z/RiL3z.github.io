@@ -511,7 +511,7 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
       html += "<tr>";
       for(let j = 0; j < 3; j ++) {
         if(stroop_task[i]) {
-          html += "<td>" + "<span style=\"color: " + stroop_task[i][Object.keys(stroop_task[i])[0]] + "\">" + Object.keys(stroop_task[i])[0] + "</span></td>";
+          html += "<td><span style=\"color: " + stroop_task[i][Object.keys(stroop_task[i])[0]] + "\">" + Object.keys(stroop_task[i])[0] + "</span></td>";
         }
         i++;
       }
