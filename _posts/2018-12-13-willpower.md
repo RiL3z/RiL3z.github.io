@@ -492,7 +492,7 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
         else {
           score += parseInt($(this).attr('value'));
         }
-        score = score / 180;
+        score = (score / 180) * 100;
         score = Math.round(score);
         if(score >= 90) {
           $("#self-control-scale-score").css('color', 'rgb(0,255,0)');
