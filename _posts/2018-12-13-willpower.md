@@ -1,3 +1,6 @@
+---
+author: Kelan Riley
+---
 # Why Willpower Can't Be Overrated
 I was scrolling around on [twitter](https://twitter.com/b_resnick/status/1071060695675035650?s=21) and ran across an article titled [“Why Willpower is overrated”](https://www.vox.com/science-and-health/2018/1/15/16863374/willpower-overrated-self-control-psychology). Since I’m obsessed with the concepts of self-control, willpower, and discipline, the article’s headline, “Why Willpower is overrated”, caught my attention. I have long believed that strong willpower is one of the most important things a human can possess. I think it’s hard to overstate how important of a concept it is to me. The claim “Willpower is overrated” runs directly counter that belief, so I was interested to see what I could learn.
 
@@ -536,7 +539,7 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
       $("#stroop_task").html(render_stroop_task(generate_stroop_task(30)));
     }
   });
-  
+
   // first get all the radio buttons that are part of the self-control scale
   $("input[type='radio']").on('click', function() {
     if($("input[type='radio']:checked").length != 36) {
