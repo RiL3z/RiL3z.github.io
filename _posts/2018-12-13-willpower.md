@@ -481,6 +481,7 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
       }
       let display_string = 'Questions un-answered: ' + questions_string;
       $("#self-control-scale-score").text(display_string);
+      $("#self-control-scale-score").css('color', 'red');
     }
     else {
       console.log('calculating self-control score...');
