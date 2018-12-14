@@ -484,7 +484,6 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
       $("#self-control-scale-score").css('color', 'red');
     }
     else {
-      console.log('calculating self-control score...');
       let score = 0;
       $("input[type='radio']:checked").each(function() {
         if($(this).attr('name')[0] == 'R') {
@@ -492,6 +491,23 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
         }
         else {
           score += parseInt($(this).attr('value'));
+        }
+        score = score / 180;
+        score = Math.round(score);
+        if(score >= 90) {
+          $("#self-control-scale-score").css('color', 'rgb(0,255,0)');
+        }
+        else if(score >= 80) {
+          $("#self-control-scale-score").css('color', 'rgb(100,200,0)');
+        }
+        else if(score >= 70) {
+          $("#self-control-scale-score").css('color', 'rgb(100,100,0)');
+        }
+        else if(score >= 60) {
+          $("#self-control-scale-score").css('color', 'rgb(200,50,0)');
+        }
+        else {
+          $("#self-control-scale-score").css('color', rgb(255,0,0));
         }
         $("#self-control-scale-score").text(score);
       });
