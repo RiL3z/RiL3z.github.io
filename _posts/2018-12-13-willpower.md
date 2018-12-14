@@ -535,6 +535,7 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
   });
 
   $("#stroop_task").html(render_stroop_task(generate_stroop_task(12)));
+  $("#word_quantity").val("12");
 
   // first get all the radio buttons that are part of the self-control scale
   $("input[type='radio']").on('click', function() {
