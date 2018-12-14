@@ -523,7 +523,7 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
 
   $("#generate_stroop_task").click(function() {
     let word_quantity = parseInt($("#word_quantity").val());
-    if(word_quantity > 0 && < 31) {
+    if(word_quantity > 0 && word_quantity < 31) {
       $("#stroop_task").html(render_stroop_task(generate_stroop_task(word_quantity)));
     }
     else if(word_quantity < 1) {
