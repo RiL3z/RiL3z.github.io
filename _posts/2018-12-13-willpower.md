@@ -372,7 +372,7 @@ know it is wrong.</td>
 </table>
 
 **Score:** <span id="self-control-scale-score"></span>
-<p id="self-control-scale-comment">test comment</p>
+<p id="self-control-scale-comment"></p>
 
 How'd you do? I scored a SCORE. What researchers have found is that if you score high on this scale, then you are likely to have success in various aspects of your life. I'm not disputing that result.
 
@@ -506,7 +506,7 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
 
   function render_stroop_task(stroop_task) {
     for(let i = 0; i < stroop_task.length; i ++) {
-      
+
     }
   }
 
