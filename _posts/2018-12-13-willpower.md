@@ -524,6 +524,7 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
   $("#generate_stroop_task").click(function() {
     console.log('generate stroop task button clicked');
     let word_quantity = parseInt($("#word_quantity").attr('value'));
+    console.log(word_quantity);
     $("#stroop_task").html(render_stroop_task(generate_stroop_task(word_quantity)));
   });
 
