@@ -460,7 +460,6 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
   // first get all the radio buttons that are part of the self-control scale
   $("input[type='radio']").on('click', function() {
     if($("input[type='radio']:checked").length != 36) {
-      console.log("I won't calculate a score until you answer all the questions!");
       let unanswered_questions = [];
       // determine which questions are un-answered.
       let trs = $("tr");
@@ -481,7 +480,7 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
         }
       }
       let display_string = 'Questions un-answered: ' + questions_string;
-      console.log(display_string);
+      $("#self-control-scale-score").text(display_string);
     }
     else {
       console.log('calculating self-control score...');
