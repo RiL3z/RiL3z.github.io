@@ -33,7 +33,7 @@ The article is written by a gentleman of the name Brian Resnick. Instead of refe
 The article establishes it's central claim within the fourth paragraph.
 > But this idea, that people have self-control because they’re good at willpower, is looking more and more like a myth. It turns out that self-control, and all the benefits from it, may not be related to inhibiting impulses at all. And once we cast aside the idea of willpower, we can better understand what actually works to accomplish goals, and hit those New Year’s resolutions.
 
-The claim, restated, is this: Impulse control, or willpower, is not an effective means by which we can accomplish goals. Brian is going to use the sharpened sword of science to slice through our precious and deeply held misconception that willpower is at the root of all the beneficial changes that we make in our lives and show us what the real key to success is.  
+The claim, restated, is this: **Impulse control, or willpower, is not an effective means by which we can accomplish goals.** Brian is going to use the sharpened sword of science to slice through our precious and deeply held misconception that willpower is at the root of all the beneficial changes that we make in our lives and show us what the real key to success is.  
 
 Or will he?
 
