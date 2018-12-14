@@ -492,36 +492,36 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
         else {
           score += parseInt($(this).attr('value'));
         }
-        score = (score / 180) * 100;
-        console.log(score);
-        score = Math.round(score);
-        if(score >= 90) {
-          $("#self-control-scale-score").css('color', 'rgb(0,255,0)');
-          $("#self-control-scale-comment").css('color', 'rgb(0,255,0)');
-          $("#self-control-scale-comment").text("Your high level of self-control makes you almost god-like.");
-        }
-        else if(score >= 80) {
-          $("#self-control-scale-score").css('color', 'rgb(100,200,0)');
-          $("#self-control-scale-comment").css('color', 'rgb(100,200,0)');
-          $("#self-control-scale-comment").text("You're not David Goggins but you're no slouch either.");
-        }
-        else if(score >= 70) {
-          $("#self-control-scale-score").css('color', 'rgb(100,100,0)');
-          $("#self-control-scale-comment").css('color', 'rgb(100,100,0)');
-          $("#self-control-scale-comment").text("You're an average human.");
-        }
-        else if(score >= 60) {
-          $("#self-control-scale-score").css('color', 'rgb(200,50,0)');
-          $("#self-control-scale-comment").css('color', 'rgb(200,50,0)');
-          $("#self-control-scale-comment").text("You've got some bad habits that are holding you back for sure.");
-        }
-        else {
-          $("#self-control-scale-score").css('color', 'rgb(255,0,0)');
-            $("#self-control-scale-comment").css('color', 'rgb(255,0,0)');
-          $("#self-control-scale-comment").text("You couldn't resist eating a cookie if your life depended on it.");
-        }
-        $("#self-control-scale-score").text(score);
       });
+
+      score = (score / 180) * 100;
+      score = Math.round(score);
+      $("#self-control-scale-score").text(score);
+      if(score >= 90) {
+        $("#self-control-scale-score").css('color', 'rgb(0,255,0)');
+        $("#self-control-scale-comment").css('color', 'rgb(0,255,0)');
+        $("#self-control-scale-comment").text("Your high level of self-control makes you an almost god-like being.");
+      }
+      else if(score >= 80) {
+        $("#self-control-scale-score").css('color', 'rgb(100,200,0)');
+        $("#self-control-scale-comment").css('color', 'rgb(100,200,0)');
+        $("#self-control-scale-comment").text("You're not David Goggins but you're no slouch either.");
+      }
+      else if(score >= 70) {
+        $("#self-control-scale-score").css('color', 'rgb(100,100,0)');
+        $("#self-control-scale-comment").css('color', 'rgb(100,100,0)');
+        $("#self-control-scale-comment").text("You're an average human.");
+      }
+      else if(score >= 60) {
+        $("#self-control-scale-score").css('color', 'rgb(200,50,0)');
+        $("#self-control-scale-comment").css('color', 'rgb(200,50,0)');
+        $("#self-control-scale-comment").text("You've got some bad habits that are holding you back for sure.");
+      }
+      else {
+        $("#self-control-scale-score").css('color', 'rgb(255,0,0)');
+        $("#self-control-scale-comment").css('color', 'rgb(255,0,0)');
+        $("#self-control-scale-comment").text("You couldn't resist eating a cookie if your life depended on it.");
+      }
     }
   });
 </script>
