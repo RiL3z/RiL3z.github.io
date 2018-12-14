@@ -477,7 +477,7 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
           questions_string += unanswered_questions[i] + ', ';
         }
         else {
-          questions_string += unanswered_questions;
+          questions_string += unanswered_questions[i];
         }
       }
       let display_string = 'Questions un-answered: ' + questions_string;
