@@ -507,7 +507,7 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
           $("#self-control-scale-score").css('color', 'rgb(200,50,0)');
         }
         else {
-          $("#self-control-scale-score").css('color', rgb(255,0,0));
+          $("#self-control-scale-score").css('color', 'rgb(255,0,0)');
         }
         $("#self-control-scale-score").text(score);
       });
