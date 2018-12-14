@@ -34,7 +34,7 @@ Or will he?
 
 ## Sciencing the Shit Outta 'Dis Bitch
 The article introduces us to two scientific tests. One test is focused on self-control. It's a test where the user rates themselves on a scale of 1-5 on how well their personal character fits a series of statements. This test is called the "self-control scale". Brian made sure to [link](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=8ACA1F072F02A260F8AC01CFB37B9EF8?doi=10.1.1.613.6909&rep=rep1&type=pdf) out to it in his article and I will do the same here just for completeness's sake. You can even take the test here if you'd like. Answer each statement by selecting one of the options labeled 1-5. Answer with a 1 if your strongly disagree with the statement or answer with a 5 if you strongly agree with the statement or answer with some number in-between depending on your degree of agreement with the statement:
-<table>
+<table id="self-control-scale">
   <tr>
     <th></th>
     <th>Question</th>
@@ -457,12 +457,65 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
 <script>
+  function generate_stroop_task(num_words) {
+    // stolen from here: https://stackoverflow.com/questions/1527803/generating-random-whole-numbers-in-javascript-in-a-specific-range
+    function getRandomInt(min, max) {
+      min = Math.ceil(min);
+      max = Math.floor(max);
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    let color_words = {
+      'blue': 'rgb(0,0,255)',
+      'green': 'rgb(0,255,0)',
+      'yellow': 'rgb(255,255,0)',
+      'red': 'rgb(255,0,0)',
+      'pink': 'rgb(255,172,226)',
+      'orange': 'rgb(250,173,14)',
+      'grey': 'rgb(192,192,192)',
+      'black': 'rgb(0,0,0)',
+      'purple': 'rgb(128,0,255)',
+      'brown': 'rgb(128,64,0)',
+      'white': 'rgb(255,255,255)'
+    };
+
+    let words = Object.keys(color_words);
+    let colors = Object.values(color_words);
+
+    function select_rand_word() {
+      return words[getRandomInt(0, words.length - 1)];
+    }
+
+    function select_rand_color() {
+      return colors[getRandomInt(0, colors.length - 1)];
+    }
+
+    let stroop_task = [];
+    for(let i = 0; i < num_words; i ++) {
+      let word = select_rand_word();
+      let color = select_rand_color();
+      while(color == color_words[word] || color_words['white'] == color) {
+        color = select_rand_color();
+      }
+      let unit = {};
+      unit[word] = color;
+      stroop_task.push(unit);
+    }
+    return stroop_task;
+  }
+
+  function render_stroop_task(stroop_task) {
+    for(let i = 0; i < stroop_task.length; i ++) {
+      
+    }
+  }
+
   // first get all the radio buttons that are part of the self-control scale
   $("input[type='radio']").on('click', function() {
     if($("input[type='radio']:checked").length != 36) {
       let unanswered_questions = [];
       // determine which questions are un-answered.
-      let trs = $("tr");
+      let trs = $("#self-control-scale tr");
       for(let i = 1; i < trs.length; i ++) {
         let radios = $(trs[i]).find("input[type='radio']:checked");
         if($(radios).length == 0) {
