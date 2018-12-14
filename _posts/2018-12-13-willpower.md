@@ -42,7 +42,7 @@ The article introduces us to two scientific tests. One test is focused on self-c
 <table id="self-control-scale">
   <tr>
     <th></th>
-    <th>Question</th>
+    <th>Statement</th>
     <th>1</th>
     <th>2</th>
     <th>3</th>
