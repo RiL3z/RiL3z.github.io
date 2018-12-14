@@ -526,13 +526,15 @@ If you want to discard willpower as a useful concept, be my guest. I want you to
     if(word_quantity > 0 && word_quantity < 31) {
       $("#stroop_task").html(render_stroop_task(generate_stroop_task(word_quantity)));
     }
-    else if(word_quantity < 1) {
+    else if(word_quantity < 1 || isNaN(word_quantity)) {
       $("#stroop_task").html(render_stroop_task(generate_stroop_task(1)));
     }
     else if(word_quantity > 30) {
       $("#stroop_task").html(render_stroop_task(generate_stroop_task(30)));
     }
   });
+
+  $("#stroop_task").html(render_stroop_task(generate_stroop_task(12)));
 
   // first get all the radio buttons that are part of the self-control scale
   $("input[type='radio']").on('click', function() {
