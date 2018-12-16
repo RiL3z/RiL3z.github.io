@@ -60,5 +60,5 @@ I know you want the best for me but I'm not going to change a fundamental part o
 ```
 What if you're wrong?
 ```
-Ah [Pascal's wager]((https://www.youtube.com/watch?v=fZpJ7yUPwdU). Such a lovely concept.  
+Ah [Pascal's wager](https://www.youtube.com/watch?v=fZpJ7yUPwdU). Such a lovely concept.  
 I'm open to the idea that I might be wrong about God's existence even though I don't think it's very likely. I hope I'm wrong. I hope I stand before the immense wisdom and power of God after I've lived a long, glorious life, and he condemns me to hell. At least then I'll know what kind of creator we've all been living under. But, I can hear you exclaim, "You don't know what you're agreeing to! An eternity of suffering!" This is usually the point in the discussion where the vein in my neck starts becoming noticeable. I'm an adult. When I agree to something, I'm aware of potential the consequences of that agreement. I know exactly what I'm agreeing to by not believing in God. So be it.
