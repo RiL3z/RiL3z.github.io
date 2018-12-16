@@ -7,7 +7,7 @@ Prepare to get **PISSED**.
 ## What I Believe About God
 First, I'd like to establish here what my actual beliefs are about God without **ANY** confusion. This set of beliefs is quite simple and can be summarized like this:
 - **God doesn't exist**. There is no higher power besides the laws of the universe that we can observe and have yet to discover. God cannot actively intervene in people's lives. He cannot bestow blessings upon the few fortunate enough to win his favor and he cannot damn the others unfortunate enough to incur his wrath.
-- There's no after-life. There's no purgatory, heaven or hell. You will not get punished for your wrong-doing, rewarded for you virtue, or await judgement in the after-life. Once you die you're gone for good. That means you have **ONE** experience of life to enjoy. Make it count.
+- There's no after-life. There's no purgatory, heaven or hell. You will not get punished for your wrong-doing, rewarded for your virtue, or await judgement in the after-life. Once you die you're gone for good. That means you have **ONE** experience of life to enjoy. Make it count.
 
 I won't spend much time justifying how I came to believe these things because that would require a book to explain. I will, however, say that I came down this road mainly because of questions. If you're at all inclined, here's a few I'd recommend you ask.
 - Where did the universe come from? Is God the only plausible explanation?
