@@ -19,46 +19,46 @@ There's also lots of good Youtube videos on the subject. [TheraminTrees](https:/
 
 ## "You Don't Really Believe That," said the Doofus
 The first frustrating question that I have to contend with goes something like this:
-```
-Isn't it hard to find purpose or meaning in life without believing in a higher power?
-```
+
+> Isn't it hard to find purpose or meaning in life without believing in a higher power?
+
 Obviously not. If you know anything about me you will know that I find a great deal of meaning in life without God. Kissing a beautiful girl, taking a hike in the woods, and listening to good music doesn't lose any of it's meaning because I don't believe in God. I am capable of appreciating these moments just as well as any other human.
 
 Here's another one of my favorites:
-```
-If there's no reward of an after-life, why be good?
-```
+
+> If there's no reward of an after-life, why be good?
+
 This one is easy to address. I try my hardest to be good because being good to people feels good. I feel good about myself after I take the time to sit down with an intern at work and help them work through a tough engineering problem. Why does that feel good? Because I know that I've taught them a little more independence, that they've gained a little more confidence, and I've helped them believe a little more than they did before our session that they are smart and they are capable of figuring things out. I want people to be the best version of themselves and if I can help them do some of that, I feel fucking amazing. Imagine what the world could be like if everyone put their best foot forward all the time? That vision of the world drives me to want to help. I'm not interested in a reward for my good deeds after death. I am interested in doing what I can now to make my immediate surroundings better than they were yesterday. I am not a dog who needs to be rewarded with the treat of heaven in order to behave.
-```
-I can't make moral judgements without God.
-```
+
+> You can't make moral judgements without God.
+
 Another easy one to dismiss. Murder is bad because taking away someone else's opportunity to experience the joys and pains of life is cruel and creates suffering. Look at this guy over here, making moral judgements without God. Who does he think he is? Next.
-```
-I'm mad at God.
-```
+
+> You're mad at God.
+
 Sure. I'm mad at God like just I'm mad at the murderous jigglypuff that hides in the closet of every house whose street number is odd.
-```
-I believe God exists and just say I'm an atheist for the reaction.
-```
+
+> You believe God exists and just say you're an atheist for the reaction.
+
 Yup. You know me. King of hipsters and master contrarian. I will admit, I do enjoy ticking people off sometimes, but I don't form my beliefs around the goal of making people angry. I try to observe reality as best I can, see where my beliefs land according to that, and if my beliefs frustrate some folks, that's fine.
-```
-Surely, you must believe in something greater than yourself.
-```
+
+> Surely, you must believe in something greater than yourself.
+
 I believe in making myself into the most disciplined, badass, relentless, and driven motherfucker you have ever met. I have decided that pursuing that goal is the best way I can contribute to humanity.
-```
-You must think you're smarter than religious people.
-```
+
+> You must think you're smarter than religious people.
+
 No. There are many religious folks with minds more formidable than mine. Making assumptions that I think I'm smarter than everyone else is pretty dumb though.
-```
-Aren't you afraid of hell?
-```
+
+> Aren't you afraid of hell?
+
 I'm more afraid of getting gored by a unicorn ridden by a leprechaun who wants to tie me up and fuck me than I am of hell.
-```
-I'm worried about you!
-```
+
+> I'm worried about you!
+
 I know you want the best for me but I'm not going to change a fundamental part of who I am because you're worried. Sorry if that seems harsh but sticking to my principles and values is more important to me than making you feel better about my prospects of getting into heaven. Accuse me of cruelty and narcissism if it makes you feel better.
-```
-What if you're wrong?
-```
+
+> What if you're wrong?
+
 Ah [Pascal's wager](https://www.youtube.com/watch?v=fZpJ7yUPwdU). Such a lovely concept.  
 I'm open to the idea that I might be wrong about God's existence even though I don't think it's very likely. I hope I'm wrong. I hope I stand before the immense wisdom and power of God after I've lived a long, glorious life, and he condemns me to hell. At least then I'll know what kind of creator we've all been living under. But, I can hear you exclaim, "You don't know what you're agreeing to! An eternity of suffering!" This is usually the point in the discussion where the vein in my neck starts becoming noticeable. I'm an adult. When I agree to something, I'm aware of potential the consequences of that agreement. I know exactly what I'm agreeing to by not believing in God. So be it.
