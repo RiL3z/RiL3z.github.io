@@ -12,10 +12,10 @@ First, I'd like to establish here what my actual beliefs are about God without *
 I won't spend much time justifying how I came to believe these things because that would require a book to explain. I will, however, say that I came down this road mainly because of questions. If you're at all inclined, here's a few I'd recommend you ask.
 - Where did the universe come from? Is God the only plausible explanation?
 - How does God judge good and bad actions?
-- If God works in mysterious ways, and we can't know his mind, how can know that God will send someone like Osama Bin Laden to hell?
+- If God works in mysterious ways, and we can't know his mind, how can we know that God will send someone like Osama Bin Laden to hell?
 - Is it fair that God judges us by some criteria that only he knows? Would it be fair for a teacher to assign you a grade in a class without making the rubric available for you to see? If it's fair for God to do it but not your teacher, why?
 
-There's also lots of good Youtube videos on the subject. [TheraminTrees](https://www.youtube.com/channel/UCJ-vHE5CrGaL_ITEg-n3OeA) does one of the best jobs of [breaking things down](https://www.youtube.com/watch?v=0YQfsyK9ois).
+There's also lots of good Youtube videos on the subject. [TheraminTrees](https://www.youtube.com/channel/UCJ-vHE5CrGaL_ITEg-n3OeA) does one of the best jobs [breaking things down](https://www.youtube.com/watch?v=0YQfsyK9ois).
 
 ## "You Don't Really Believe That," said the Doofus
 The first frustrating question that I have to contend with goes something like this:
