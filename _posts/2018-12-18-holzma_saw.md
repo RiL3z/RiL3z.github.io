@@ -1,6 +1,6 @@
 # The Holzma Saw
 When I was younger I used to work at a woodworking plant that produced, among other things, cabinet doors. I operated an automated saw affectionately called "The Holzma." Take a gander.
-![The Holzma](/assets/holzma_saw.jpg)
+![The Holzma](/assets/holzma_saw.jpg)  
 I was tasked with producing rectangles of wood of various dimensions by operating this thing during the night shift. Now, supposedly, the reason behind creating automated sawing systems like this is to increase the productivity of factories producing cut up boards that are to be turned into cabinet doors and other things. I **think** the system works great if you maintain it and don't use it past it's intended life but I wouldn't know how the saw performs optimally because the particular saw I was operating had obviously been used and abused to no end.
 
 Chains would break. Saw teeth would chip. Pistons would misalign. Wood would bind against the machine in the wrong spots. Air hoses would suddenly disconnect from their connections and dance erratically. Choking, I'd dig into piles of sawdust trying to find which small rubber piece had gone flying so that I could try to find a replacement in the repair parts room. It seemed as though each night, the saw would break for a different reason. I'd produce some parts, start feeling good about my prospects of having a productive night, and then bam, the saw would stop working.
