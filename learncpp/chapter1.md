@@ -2,7 +2,7 @@
 All stories have beginnings. Every great master begins as a student who had a desire to seek out a great teacher to learn from. Our teacher will be Ira Pohl's book, *C++ by Dissection*. Why this book? Well, when I was an undergraduate attending school, I found it amongst a pile of books the computer science department was discarding. So it seems like as good a book as any to go with. I'll get to satisfy my lust for adventure by cracking into it and seeing what it has to offer. And if you're worried that you won't be able to follow along because you don't own this book, don't fear, I'll be making every page of it available here. Perhaps it's illegal, but I'd much rather take the risk of offending the authorities then prevent any potential readers from accessing the very same information that I'm using to come to my conclusions about computer programming.
 
 ## Page 1
-![page 1 chapter 1](/assets/c1p1-cppbd.jpg)
+![page 1 chapter 1](/assets/cppbd/c1p1.jpg)
 
 We are going to take note a few things that are said here in this first page.
 > The basic ideas presented here become the foundation for more complete explanations that occur in later chapters.
@@ -18,7 +18,7 @@ There's going to be lots of examples and lots of breakdowns of them. *If* we tak
 C++ has everything the other computer programming language called C has plus a bunch of extra shit. If we learn C++ well we'll be able to handle programming in C (in theory).
 
 ## Page 2
-![page 2 chapter 1](/assets/c1p2-cppbd.jpg)
+![page 2 chapter 1](/assets/cppbd/c1p2.jpg)
 > A companion book, *C by Dissection: Fourth Edition*, by Al Kelley and Ira Pohl (Addison-Wesley, 2000), teachers the rest of C that is not found.
 >
 > Most chapters also have a comparison between C++ and Java programs. Java is partly based on C++. However, unlike C++, some C concepts do not work in Java or have a different meaning. Increasingly, people who begin to Program in C++ have started from a Java background. An introduction to the Java programming process can be found in the companion volume *Java by Dissection*, by Ira Pohl and Charlie McDowell (Addison-Wesley, 1999). The modern programmer needs to be comfortable in all three C-based languages.
