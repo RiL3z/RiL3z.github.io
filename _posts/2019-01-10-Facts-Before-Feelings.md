@@ -1,3 +1,4 @@
+# Facts Before Feelings
 I've noticed that people have a tendency to categorize themselves as either pessimists or, on the other hand, optimists. I've also noticed that the number of folks that put themselves in the optimist camp far outweighs the number of folks that describe themselves as pessimists.  There's also a philosophical battle brewing between these two camps; should we view our future endeavors with hope and confidence that they'll turn out just as we envisioned them? Or is everything we attempt to do just bound to end up down the shitter? Who is right in this great debate? Are those many optimists just a crowd of overconfident fools who hasn't thought through their plans very well, or is that small minority of pessimists just a little sad bunch of losers who should have been held tighter as children? Let's find out.
 
 Let's take a moment to review the definitions of these two competing concepts.  
