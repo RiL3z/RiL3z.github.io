@@ -4,7 +4,7 @@ All stories have beginnings. Every great master begins as a student who had a de
 ## Page 1
 ![page 1 chapter 1](/assets/cppbd/c1p1.jpg)
 
-We are going to take note a few things that are said here in this first page.
+We are going to take note of a few things that are said here in this first page.
 > The basic ideas presented here become the foundation for more complete explanations that occur in later chapters.
 
 Here the author is gently letting us know that we should **PAY ATTENTION** to what's being said here so we don't screw ourselves later. We may not program anything exciting within the first chapter but that doesn't mean the material here is any less relevant than what comes ahead.
@@ -37,3 +37,9 @@ Teacher: In a professional setting you are likely going to need knowledge of **M
 - Groovy
 
 Chances are good I'm forgetting something but the point is that bigger systems that operate in a business environment tend to be composed of many pieces of technology that can be leveraged with different languages. It seems a little crazy that there are that many languages you have to get familiar with but many of these languages share similar features. You also probably won't need to be an expert in all of them to complete feature work for your product since a passing familiarity with each is likely all that's needed. If we get good at understanding computing and problem solving concepts in C++ we'll be able to transition to many other languages without too much more effort, although the devil is still in the details, as they say.
+
+But, I digress, let's keep reading.
+
+> A step-by-step procedure that accomplishes a desired task is called an algorithm. Thus, programming is the activity of communicating algorithms to computers.
+
+Take note.
