@@ -18,7 +18,7 @@ James is suggesting this: The notion that there aren't as many women in position
 * They’re exactly what we would predict from an evolutionary psychology perspective  
 Note, I’m not saying that all men differ from all women in the following ways or that these differences are “just.” I’m simply stating that the distribution of preferences and abilities of men and women differ in part due to biological causes and that these differences may explain why we don’t see equal representation of women in tech and leadership. Many of these differences are small and there’s significant overlap between men and women, so you can’t say anything about an individual given these population level distributions.
 
-Men and woman are different. There's good evidence for it across cultures. Not all woman act like women and not all men act like men. You should treat people as individuals. Wow, what a silly idea, right?
+Men and woman are different. There's good evidence for it across cultures. Not all women act like women and not all men act like men. You should treat people as individuals. Wow, what a silly idea, right?
 
 > Women, on average, have more:
 * Openness directed towards feelings and aesthetics rather than ideas. Women generally also have a stronger interest in people rather than things, relative to men (also interpreted as empathizing vs. systemizing).
