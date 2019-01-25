@@ -28,7 +28,7 @@ Men and woman are different. There's good evidence for it across cultures. Not a
 * Neuroticism (higher anxiety, lower stress tolerance).
   * This may contribute to the higher levels of anxiety women report on Googlegeist and to the lower number of women in high stress jobs.
 
-Women, *on average*, are more open, social, agreeable, and suffer from higher rates of anxiety. These are observations. Notice how **NOWHERE** does James say say that all women are just a bunch of shrill whiny sluts complaining all the time and that they don't know how to handle themselves because they act like children.
+Women, *on average*, are more open, social, agreeable, and suffer from higher rates of anxiety. These are observations. Notice how **NOWHERE** does James say that all women are just a bunch of shrill whiny sluts complaining all the time and that they don't know how to handle themselves because they act like children.
 
 > Note that contrary to what a social constructionist would argue, research suggests that "greater nation-level gender equality leads to psychological dissimilarity in men’s and women’s personality traits." Because as “society becomes more prosperous and more egalitarian, innate dispositional differences between men and women have more space to develop and the gap that exists between men and women in their personality traits becomes wider.” We need to stop assuming that gender gaps imply sexism.
 
