@@ -43,7 +43,7 @@ Armoured Skeptic is a rational character that questions all claims that fall bef
 ## [Andrew Ucles](https://www.youtube.com/user/AndrewUcles)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NF8r7ZhAkQM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-A crazy Australian runs through the outback catching whatever creatures he can literally get his bare hands on, all the while giving us little factoids on how the little buggers live in the wild. He's Steve Erwin 2.0. He gets some hate for "disturbing nature" but that's coming from people who are probably jealous that he gets to live like an absolute boss.
+A crazy Australian runs through the outback catching whatever creatures he can literally get his bare hands on, all the while giving us little factoids on how the little buggers live in the wild. He's Steve Erwin 2.0. He gets some hate for "disturbing nature" but that's coming from people who are probably jealous of the fact that he's an absolute boss.
 
 ## [The Bioneer](https://www.youtube.com/channel/UCIh_TPYPqjJuS_-nOfAIlfg)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/r0qJm6L-MKU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
