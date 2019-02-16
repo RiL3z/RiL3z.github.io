@@ -24,7 +24,7 @@ You can take away friendship.
 My self worth does not rely on it.
 
 You can tell me I'm too confrontational and that's going to get me into trouble with the wrong people.  
-I will continue to address interpersonal issues in a direct manner that let's you know I'm HERE IN FRONT OF YOU.
+I will continue to address interpersonal issues in a direct manner that let's you know I'm **HERE IN FRONT OF YOU**.
 
 You can tell me that if I don't pick a side on an issue that I'm a willful conspirator contributing to social ills.  
 I will continue to give issues careful thought before deciding what I should believe.
