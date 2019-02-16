@@ -18,7 +18,7 @@ You can put me in a room with ten of your other friends and have each one of the
 If none of you comes up with convincing reasons to change, I won't.
 
 You can discuss me amongst your friends and assign all sorts of labels and ideas to me in the absence of my presence. That I'm mean. That I turn women into objects with my "male gaze." That by listening to experts in evolutionary psychology my mind is being warped to believe that it's justifiable to "degrade" or "sexualize" women. That I'm insecure. That I'm secretly crying out for help. That I'm insensitive. That I'm "too aggressive."  
-I will continue to stay on my course until the noise becomes unnoticeable.
+I will continue to sail on my course to my dream island until the noise fades away and becomes unnoticeable.
 
 You can take away friendship.  
 My self worth does not rely on it.
