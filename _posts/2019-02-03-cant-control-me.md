@@ -12,7 +12,7 @@ You can try to scare me into delivering my speech in a more palatable way by rem
 I won't water myself down to avoid gasps in the room.
 
 You can attempt to make me feel guilty for something someone else did to you or that you did to yourself. You can try to convince me that I had a hand to play in your current emotional anguish.  
-I'll ask you to consider if your own feelings really has anything to do with me.
+I'll ask you to consider if your own feelings about yourself really has anything to do with me.
 
 You can put me in a room with ten of your other friends and have each one of them take turns lecturing me on how I should behave.  
 If none of you comes up with convincing reasons to change, I won't.
