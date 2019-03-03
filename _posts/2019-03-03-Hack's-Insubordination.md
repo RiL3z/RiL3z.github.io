@@ -12,7 +12,7 @@ I made the report. When I finished, the guy said *very* cuttingly, "Yesterday yo
 "Let me speak to your commanding general!"  
 I suddenly realized I'd probably gone too far. "Well, who are you?" I asked.  
 "I am Robert F. Kennedy. I'm the Attorney General. I'm commanding your organization. I'm *responsible* for handling civil disturbance, and if I want to know every last detail, soldier, you'll provide it. Now get me your boss right now!"  
-*Talk about centralization*. I put the phone down and went to see General Cassidy, whom by now I knew quite well, and vice versa. "General, you won't believe what I've done.  
+*Talk about centralization*. I put the phone down and went to see General Cassidy, whom by now I knew quite well, and vice versa. "General, you won't believe what I've done."  
 "I'll believe it, Hack," he said, "just tell me."  
 "See, I thought he was some clerk at the Pentagon TOC giving us a hard time--but I just told the Attorney General of the United States that he was a wiseass."  
 Cassidy moaned, "Of all people, Hackworth! Of all people!" and headed for the phone in the Task Force TOC. It was just lucky for me that both men were Irish. Cassidy managed to convince Kennedy that it was the Irish in *me* that had started all the trouble, and the Attorney General accepted Cassidy's apology on my behalf. With that, the good general hung up the phone and left the TOC, shaking his head. "Of all people, Hackworth. Of all people."
