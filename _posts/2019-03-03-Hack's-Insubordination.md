@@ -31,7 +31,7 @@ By the time this happened, Hack had already established a good relationship with
 
 > "I'll believe it, Hack, just tell me."
 
-I can get a lot of information about their relationship out of this seemingly simple interaction. First, I can tell that Cassidy is used to Hack coming to him to explain his fuck-ups. Cassidy is used to Hack telling him the truth about the situations he gets himself bound up in. I can also tell that Cassidy encourages Hack to come to him with what's on his mind because he just wants Hack to give it to him straight.
+I can get a lot of information about their relationship out of this seemingly simple interaction. First, I can tell that Cassidy is used to Hack coming to him to explain his fuck-ups. Cassidy is used to Hack telling him the truth about the situations he gets himself wound up in. I can also tell that Cassidy encourages Hack to come to him with what's on his mind because he just wants Hack to give it to him straight.
 
 I can also tell that Cassidy expects better from Hack from his response to the news; "Of all people, Hackworth. Of all people." Hack is supposed to be an exemplary soldier who holds himself to a higher standard in Cassidy's opinion. I believe Hack was a model solider but, at the same time, I understand that General Cassidy was responsible for controlling Hack's reins. My suspicion is that Hack took a bit of pride in disappointing his general in this manner, however. Hack loved to show off who he was. He knew when to put his ego in check but he also knew when to let it fly off the handle.
 
