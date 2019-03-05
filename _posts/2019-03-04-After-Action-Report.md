@@ -47,6 +47,7 @@ The planned actions to be carried out on Monday, 3/4/2019 were conceived at arou
 19. At 6:10pm I arrived at the "Barcamp" meeting at Fulton Beer, located at 414 6th Ave N.
 20. I ate some free food (nacho themed buffet), drank a free beer, watched a presentation on giving presentations, and then got bored, gave away my 2nd drink ticket to someone and left.
 21. At 7:30pm I arrived back on my apartment and sat down to start writing this report.
+22. Quit writing this *after action report* at 9:40pm.
 
 ## Deviations
 1. I estimate I probably looked at my phone 40 times for an average of 10 seconds each time which means I wasted 40 * 10 = 400 seconds = 6 and 2/3 minutes on looking at my phone at work. That is probably a, ahem, "optimistic" estimate, however.
