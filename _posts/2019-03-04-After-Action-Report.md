@@ -20,7 +20,7 @@ The planned actions to be carried out on Monday, 3/4/2019 were conceived at arou
 1. I awoke at 4:32 on Monday, 3/4/2019, as evidenced by my watch and the meta-data attached to this image.
 ![watch](/assets/after_action_report/watch.JPG)
 2. I had arranged my workout clothes by my bed the night before so they were near enough for me to throw them on, lace up my shoes, and head to the gym in short order.
-3. I attacked my workout. Today's workout came from a program called [Athlean-X](https://www.youtube.com/user/JDCav24), and, with no more than 30 seconds of rest in-between exercises, consisted of:
+3. I attacked my workout. Today's workout comes from a program called [Athlean-X](https://www.youtube.com/user/JDCav24), and, with no more than 30 seconds of rest in between exercises, consisted of the following routine:
   * 3 sets of 12 reps of side step ups onto a 23 inch tall box.  
   * 3 sets to failure of hip thrusts utilizing a 23 inch tall box. I can't remember exactly what reps I failed on with each set but I think I'm comfortable with estimating that it was around 10 reps for each set.
   * 3 sets to failure of Spiderman pushups. Again, I can't remember exactly what reps I failed on with each set but I think I'm comfortable with estimating that it was around 10 reps for each set.
@@ -44,8 +44,8 @@ The planned actions to be carried out on Monday, 3/4/2019 were conceived at arou
 16. 3:35-4pm: I bullshitted with the bus driver on the whole ride home. He likes mixing cock-tails, his new truck, and talking about haunted houses.
 17. 4-5:45pm: I made two bun-less burgers and had a bowl of kale with no dressing.
 18. 5:45-6pm: Headed out the door to attend part of a University of Minnesota Alumni meeting since I am contemplating getting a master's degree there.
-19. At 6:10pm I arrived at the "Barcamp" at Fulton Beer, located at 414 6th Ave N.
-20. I ate some free food, drank a free beer, watched a presentation on giving presentations, and then got bored, gave away my 2nd drink ticket to someone and left.
+19. At 6:10pm I arrived at the "Barcamp" meeting at Fulton Beer, located at 414 6th Ave N.
+20. I ate some free food (nacho themed buffet), drank a free beer, watched a presentation on giving presentations, and then got bored, gave away my 2nd drink ticket to someone and left.
 21. At 7:30pm I arrived back on my apartment and sat down to start writing this report.
 
 ## Deviations
