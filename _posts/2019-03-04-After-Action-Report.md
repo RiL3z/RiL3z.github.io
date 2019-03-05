@@ -56,5 +56,5 @@ The planned actions to be carried out on Monday, 3/4/2019 were conceived at arou
 Other than those three deviations, I stayed pretty tried and true to my plans for the most part. Today was a pretty solid day as far as sticking to the plan.
 
 ## Lessons Learned
-1. If I'm going to write an *after action report* at the end of the day I need to schedule it into my plan so I'm not up past my bed-time writing sloppy slosh like this.
+1. If I'm going to write an *after action report* at the end of the day I need to schedule it into my plan so I'm not up past my bed-time writing sloppy slosh like this. I broke my rule of no screens before bed because of this lack of planning.
 2. Nerds make me cringe but the free beer made the "Barcamp" worth it.
