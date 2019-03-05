@@ -1,4 +1,4 @@
-# After Action Report
+# After Action Report, Monday, 3/4/2019
 I have found that writing a daily *after action report* is an incredibly valuable way to improve how I approach each day. The way I break the *after action report* down is into four major sections: *Planned Actions*, *Actual Outcomes*, *Deviations*, and *Lessons Learned*. *Planned Actions* describes the *planned* action for the day. *Actual Outcomes* describes what actually transpired throughout the day. *Deviations* describes **WHY** and **HOW** the *Planned Actions* and *Actual Outcomes* differed, because it means that my plans weren't carried out how I envisioned them and it's important to try and understand why that happened so I can, ideally, prevent my plans from getting derailed again in the future. *Lessons Learned* describes what lessons I can take away from the day.
 
 I believe that when writing any piece of reflection that attention to detail and honesty are the two most important things to abide by. I will do my best to exemplify those two qualities here.
