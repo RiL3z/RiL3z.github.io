@@ -16,7 +16,7 @@ But maybe, just maybe, you’re another type of person. Maybe, after your unsucc
 * "You're not going to get noticed for doing that. No one cares about catching a certain fish."
 
 The little people protest because they're not open minded enough to learn anything about odds. Let's say, on any particular fishing trip, that the chances of catching this really rare ocean fish, let's call him "silver-gill", is only 1%. Each fishing trip, therefore, has a probability of success of 1%. So if you try to catch Mr. Silver-gill but only make one attempt, unless you are very lucky, which you aren't, and you shouldn't rely on luck anyways, you won't catch him. But if you are a relentless type of person, the odds begin to swing in your favor. The process of repeated trials where the outcome of one trail does not affect the outcome of another is called a Bernoulli process. Going out onto the water to catch silver-gill is a Bernoulli process. There's an equation for that, it's this:  
-... 1-(n*0.01*0.99^(n - 1)) ..., where ... n ... is the number of fishing trips.
+``1-(n*0.01*0.99^(n - 1))```, where ... n ... is the number of fishing trips.
 
 Now, if you're skeptical of that, you need to do some of your own investigation to determine if I'm telling the truth as far as the math goes. I'd advise you buy [this book](https://www.amazon.com/Probability-Statistics-Engineers-Scientists-Update/dp/0134115856), stop complaining and get reading/scribbling. And yes I really am telling you to go buy a $200 book so that you can start sharpening and polishing that dull and pock marked to hell blade that you call your mind.
 
