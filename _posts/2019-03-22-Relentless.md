@@ -31,7 +31,7 @@ But beyond catching the dream fish and snapping that wonderful photo of you with
 
 Maybe...
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=AM_CHTML' async></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=AM_CHTML'></script>
 <script>
   MathJax.Hub.Config({
     asciimath2jax: {
