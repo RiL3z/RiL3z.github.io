@@ -21,11 +21,11 @@ The little people protest because they're not open minded enough to learn anythi
 Now, if you're skeptical of that, you need to do some of your own investigation to determine if I'm telling the truth as far as the math goes. I'd advise you buy [this book](https://www.amazon.com/Probability-Statistics-Engineers-Scientists-Update/dp/0134115856), stop complaining and get reading/scribbling. And yes I really am telling you to go buy a $200 book so that you can start sharpening and polishing that dull and pock marked to hell blade that you call your mind.
 
 So if you fished for 20 days in a year, your chances of catching silver-gill at least once go up according to the equation. Let's plug in our numbers:  
-... 1-(20*0.01*0.99^(19)) ~ 0.83 = 83% ...  
+`1-(20*0.01*0.99^(19)) ~ 0.83 = 83%`  
 Damn, ok, we might have good reason to have hope that we'll catch silver-gill after all. What if we fished a for a year? What's our chance of success then? Well,  
-... 1-(365*0.01*0.99^(364)) ~ 0.91 = 91% ...  
+`1-(365*0.01*0.99^(364)) ~ 0.91 = 91%`  
 What if we fished for ten years?  
-... 1-(3650*0.01*0.99^(3649)) ~ 0.99 = 99% ...
+`1-(3650*0.01*0.99^(3649)) ~ 0.99 = 99%`
 
 But beyond catching the dream fish and snapping that wonderful photo of you with him that you plan to show off to ladies at the bar, you might learn some things about yourself along the way. You might get tan and lean. You might start wearing a straw hat to fight the sun. You might get little hits of pleasure every time you hear the water slapping against the hull of your dingy. You might stop caring if you look like a hobo to tourists on the beach in your knee-cut jeans because you've started bringing home tasty fish that you can make into tasty meals. You might start to like the art of flaying, storing, and cooking the food that you've caught. You might learn to enjoy the feeling of plunging your baking body into cool water and the shock that sends all over your body. Maybe you'll even take a swim in the middle of the ocean with no life jacket on and no tether to your dingy on a calm day. Maybe you'll catch a big fish and you'll have to beat his head in with a mallet so he stops trying to leap out of your boat or bite you with his sharp predatory teeth or cut you with his sharp fins. Maybe you'll start getting good at telling stories and spinning tales of your fishing adventures. Maybe you'll learn to smile and swell with pride when people whisper that you're a crazy and dangerous man.
 
