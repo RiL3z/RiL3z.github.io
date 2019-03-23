@@ -22,7 +22,7 @@ Now, if you're skeptical of that, you need to do some of your own investigation 
 
 So if you fished for 20 days in a year, your chances of catching silver-gill at least once go up according to the equation. Let's plug in our numbers:  
 $1-(20xx0.01xx0.99^(19)) ~~ 0.83 = 83%$  
-Damn, ok, we might have good reason to have hope that we'll catch silver-gill after all. What if we fished a for a year? What's our chance of success then? Well,  
+Damn, ok, we might have good reason to have hope that we'll catch silver-gill after all. What if we fished for a year? What's our chance of success then? Well,  
 $1-(365xx0.01xx0.99^(364)) ~~ 0.91 = 91%$  
 What if we fished for ten years?  
 $1-(3650xx0.01xx0.99^(3649)) ~~ 0.99 = 99%$
