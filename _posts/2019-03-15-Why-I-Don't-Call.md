@@ -21,7 +21,7 @@ I've lived a life where people constantly test my confidence out. Wednesday nigh
 *I don't call because I'm not interested in whatever you have to say.*  
 That depends on what you have to say. I could find it interesting. I could find it a bore. Why don't you call me and find out?
 
-So now that you may understand that the reason you thought I don't call is invalid, what then, is the true reason? The reason boils down to fostering independence. I've written more extensively about it here: https://ril3z.github.io/2018/12/23/I-don't-want-help.html. Hopefully reading that gives you some clarity.
+So now that you may understand that the reason you thought I don't call is invalid, what then, is the true reason? The reason boils down to fostering independence. I've written more extensively about it [here](https://ril3z.github.io/2018/12/23/I-don't-want-help.html). Hopefully reading that gives you some clarity.
 
 If there's something on your mind or you just want to catch up, text me, write to me by whatever means necessary, or yes, even call me. I will try my best to respond and in our dialogue I will try my best to exercise patience, listen to you, ask questions, give you some encouragement or advice, and have a laugh. DO NOT CREATE an expectation that I'm some perfect human who will magically give you the tools to solve your own problems, however. Your problems are yours to take ownership of.
 
