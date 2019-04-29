@@ -5,7 +5,7 @@ There’s something about the Minnesota cold that turns me on. The air bites. An
 
 Not satisfied to trail behind, I make my move. My arms are sore. My thighs burn. My breathing becomes hard but steady. I’ve got a side cramp but it doesn’t matter. I’m used to the feeling. Little waves of adrenaline pulse up my spine and infect my brain with pleasure, consistent and timely in their arrival. I push faster than I normally would to overtake the man in front of me. I don’t need to say that I’m on his left. He can hear my ungreased gears squealing beside him. He makes some space to his left to let me pass for now. If he starts to gain the edge again, he expects me to return the courtesy, as I should. The tables flipped, he tries to catch me and I speed up again. I won’t lose my lead. He slows down to gather another burst of speed. I wait him out. I watch for any sign that he’s trying to overtake me and as soon he starts to inch forward I pedal harder. I want to show him I can match him and that I can also go faster if I so choose.
 
-After some jockeying, we go out separate ways. He peels off to the right while I continue straight. I keep peddling hard until he’s well out of sight before allowing myself to slow down and smile.
+After some jockeying, we go our separate ways. He peels off to the right while I continue straight. I keep peddling hard until he’s well out of sight before allowing myself to slow down and smile.
 
 So who won? I could argue that I did since I kept the lead for most of our little battle. But I think my overzealous tendency for scorekeeping may be blinding me to the larger point.
 
