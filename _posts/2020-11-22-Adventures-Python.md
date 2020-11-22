@@ -256,3 +256,24 @@ print(set1)
 {2, 3, 4, 10, 12}
 ```
 I am really enjoying the fact that sets are so readily available to be worked with in Python. Most often we don't directly deal with the notion of a set in a programming language (and we use arrays as a substitute) so the fact that python supports this is very awesome indeed!  
+Next up, "Dictionaries"!  
+**PROGRAM**
+```python3
+dict = {"wine": "quite a lovely drink", "PI": 3.14, (1, 2, 3): 100}
+print(dict["wine"])
+print(dict["PI"])
+print(dict[(1, 2, 3)])
+dict[(1, 2, 3)] = "this is quite odd"
+print(dict)
+del dict[(1, 2, 3)]
+print(dict)
+```
+**OUTPUT**
+```
+quite a lovely drink
+3.14
+100
+{'wine': 'quite a lovely drink', 'PI': 3.14, (1, 2, 3): 'this is quite odd'}
+{'wine': 'quite a lovely drink', 'PI': 3.14}
+```
+As you can see, dictionaries are quite friendly in python as well! I was curious if you could use any value as a key in a dictionary and, as you can see above, you can! Deleting keys is easy too!
