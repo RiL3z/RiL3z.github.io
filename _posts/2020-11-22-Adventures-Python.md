@@ -1,7 +1,7 @@
 # Adventures in Python
 I'm trying to learn python because it might come in handy to know at some point in the future. The way I'm learning is by using this [online python interpreter]( https://www.tutorialspoint.com/execute_python3_online.php) along with [this tutorial](https://www.programiz.com/python-programming/tutorial).
 
-### To Begin With
+### Begin Again
 Every programming tutorial conventionally starts with the "Hello, World!" program. Here it is in Python:  
 **PROGRAM**
 ```python3
@@ -134,7 +134,7 @@ print(complex("5j"))
 5j
 5j
 ```
-# Data Structures
+### Data Structures
 After learning the basics of the language, the tutorial moves us on to learn about the data structures that are native to Python. The first one we learn about is the "list" structure:  
 **PROGRAM**
 ```python3
@@ -276,4 +276,26 @@ quite a lovely drink
 {'wine': 'quite a lovely drink', 'PI': 3.14, (1, 2, 3): 'this is quite odd'}
 {'wine': 'quite a lovely drink', 'PI': 3.14}
 ```
-As you can see, dictionaries are quite friendly in python as well! I was curious if you could use any value as a key in a dictionary and, as you can see above, you can! Deleting keys is easy too!
+As you can see, dictionaries are quite friendly in python as well! I was curious if you could use any value as a key in a dictionary and, as you can see above, you can! Deleting keys is easy too!  
+The next task is to get familiar with the `range` function.  
+**PROGRAM**
+```python3
+# define a range
+r = range(1, 6)
+# use a range to create a list, tuple, set, or dictionary!
+print(list(r))
+print(tuple(r))
+print(set(r))
+print(dict.fromkeys(r, "test"))
+print(dict.fromkeys(range(90, 100, 2)))
+```
+**OUTPUT**
+```
+[1, 2, 3, 4, 5]
+(1, 2, 3, 4, 5)
+{1, 2, 3, 4, 5}
+{1: 'test', 2: 'test', 3: 'test', 4: 'test', 5: 'test'}
+{90: None, 92: None, 94: None, 96: None, 98: None}
+```
+Lists, tuples, sets, and dictionaries can all be instantiated from a range. You can choose the amount to "step" by as the third argument to the `range` function. As you can see in the code above, creating a dictionary from a range where the value of each dictionary item is not specified is totally valid as well!  
+### Control Flow
