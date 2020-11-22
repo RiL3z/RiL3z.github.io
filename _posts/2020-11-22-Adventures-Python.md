@@ -94,3 +94,32 @@ print("The bastard","took all my m&ms!")
 ```
 The bastard took all my m&ms!
 ````
+The next thing introduced is implicit type conversion:
+**PROGRAM**
+```python3
+someInt = 2
+someReal = 2.3
+print(someInt + someReal)
+result = someInt + someReal
+print(type(result))
+```
+**OUTPUT**
+```
+4.3
+<class 'float'>
+```
+As we can see, adding an integer and a float together results in a float.  
+We can do explict type conversion as well:  
+**PROGRAM**
+```python3
+print(bool("I wonder what will happen"))
+print(bool(''))
+print(float("2.657"))
+```
+**OUTPUT**
+```
+True
+False
+2.657
+```
+As you can see, I was curious about what would happen if I converted an empty and non-empty string value to a boolean. Python won't throw an error, but will return `True` for any non-emtpy string value and `False` for an empty string. Neato.
