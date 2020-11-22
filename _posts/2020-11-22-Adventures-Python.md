@@ -65,7 +65,7 @@ print(test)
 ```
 1
 ```
-The next thing [the tutorial](https://www.programiz.com/python-programming/tutorial) introduces us to a method for accepting and working with user input:  
+The next thing [the tutorial](https://www.programiz.com/python-programming/tutorial) introduces us to is a method for accepting and working with user input:  
 **PROGRAM**
 ```python3
 someInput = input("Enter some text here:")
