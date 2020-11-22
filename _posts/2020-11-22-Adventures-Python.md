@@ -299,3 +299,23 @@ print(dict.fromkeys(range(90, 100, 2)))
 ```
 Lists, tuples, sets, and dictionaries can all be instantiated from a range. You can choose the amount to "step" by as the third argument to the `range` function. As you can see in the code above, creating a dictionary from a range where the value of each dictionary item is not specified is totally valid as well!  
 ### Control Flow
+`if...else` in python:  
+**PROGRAM**
+```python3
+if 5 > 6:
+    print('Hi')
+elif 100 <= 99:
+    print('Why me?')
+else:
+    print("Well you're here now.")
+    
+print(not(True and False))
+print(not True)
+```
+**OUTPUT**
+```
+Well you're here now.
+True
+False
+```
+So, we can control program flow with an `if` statement and use all the usual logical (`and`, `or`, `not`) and comparison (`==`, `<=`, `>=`, `<`, `>`, `!=`) operators.
