@@ -65,3 +65,15 @@ print(test)
 ```
 1
 ```
+The next thing [the tutorial](https://www.programiz.com/python-programming/tutorial) introduces us to a method for accepting and working with user input:  
+**PROGRAM**
+```python3
+someInput = input("Enter some text here:")
+print("\n" + someInput)
+```
+Entering the string `this is some input` for STDIN:  
+**OUTPUT**
+```
+Enter some text here:
+this is some input
+```
