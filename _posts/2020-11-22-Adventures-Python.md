@@ -318,4 +318,108 @@ Well you're here now.
 True
 False
 ```
-So, we can control program flow with an `if` statement and use all the usual logical (`and`, `or`, `not`) and comparison (`==`, `<=`, `>=`, `<`, `>`, `!=`) operators.
+So, we can control program flow with an `if` statement and use all the usual logical (`and`, `or`, `not`) and comparison (`==`, `<=`, `>=`, `<`, `>`, `!=`) operators.  
+Here's a `while` loop:  
+**PROGRAM**
+```python3
+keepLooping = True
+loopTimes = 0
+while keepLooping:
+    loopTimes += 1
+    print("I am looping",loopTimes,"times!")
+    if loopTimes == 10:
+        keepLooping = False
+```
+**OUTPUT**
+```
+I am looping 1 times!
+I am looping 2 times!
+I am looping 3 times!
+I am looping 4 times!
+I am looping 5 times!
+I am looping 6 times!
+I am looping 7 times!
+I am looping 8 times!
+I am looping 9 times!
+I am looping 10 times!
+```
+Simple enough. The loop continues to execute as long as the conditional expression evaluates to `True`.  
+Traversing over any iterable sequence (list, tuple, set, dictionary, or range) using a `for` loop:  
+**PROGRAM**
+```python3
+breakfast = ["eggs", "bacon", "hashbrowns"]
+
+for item in breakfast:
+    print(item)
+    
+for i in range(2, 5):
+    print(i)
+
+dict = {"one": 1, "two": 2, "three": 3}
+for key in dict:
+    print("key:", key, "value:", dict[key]))
+ ```
+ **OUTPUT**
+```
+eggs
+bacon
+hashbrowns
+2
+3
+4
+key: one value: 1
+key: two value: 2
+key: three value: 3
+```
+Sweet.  
+On to Functions!  
+**PROGRAM**
+```python3
+def func():
+    pass
+
+def func1(one, two):
+    return one + two
+
+print(func())
+print(func1(8, 6))
+```
+**OUTPUT**
+```
+None
+14
+```
+Functions in python can return values, accept arguments, and execute arbitrary code. It is interesting to note that we can use the `pass` keyword to basically make a block of python code do nothing. Python also has a concept of something called a "lambda" function. We can use it on a `filter` or `map` operation.
+**PROGRAM**
+```python3
+l = [101, 89.6, 3j, 4.5, 2, 14 / 3]
+integers = list(filter(lambda i: type(i) is int, l))
+print(integers)
+l1 = list(map(lambda i: i / 2, l))
+print(l1)
+```
+**OUTPUT**
+```
+[101, 2]
+[50.5, 44.8, 1.5j, 2.25, 1.0, 2.3333333333333335]
+```
+I defined a list called `l` and assigned some values to it. I then used the `filter` function, only selecting items that were of the type `int`. I also called the `map` function to return a list of all the items of `l` divided by 2! Lambda functions aren't strictly necessary here but I'm assuming it's good practice to use them in this case.  
+Python also has support for object orientation.  
+**PROGRAM**
+```python3
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def tostring(self):
+        return "This person's name is: " + self.name + " and their age is: " + str(self.age) + "!"
+
+p = Person("Kelan", 28)
+print(p.tostring())
+```
+**OUTPUT**
+```
+This person's name is: Kelan and their age is: 28!
+```
+Here I've defined a simple `Person` class that has two attributes, a `name` and an `age` and I've defined a method of that class that uses those attributes.
