@@ -40,3 +40,28 @@ print(test)
 ```
 64
 ```
+Interestingly, there's no `++` or `--` operators like there is in most languages:  
+**PROGRAM**
+```python3
+test = 0
+test ++
+print(test)
+```
+**OUTPUT**
+```
+  File "main.py", line 2
+    test ++
+          ^
+SyntaxError: invalid syntax
+```
+Of course we can get around this easily by using the `+=` operator:  
+**PROGRAM**
+```python3
+test = 0
+test += 1
+print(test)
+```
+**OUTPUT**
+```
+1
+```
