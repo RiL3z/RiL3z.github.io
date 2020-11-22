@@ -122,4 +122,15 @@ True
 False
 2.657
 ```
-As you can see, I was curious about what would happen if I converted an empty and non-empty string value to a boolean. Python won't throw an error, but will return `True` for any non-emtpy string value and `False` for an empty string. Neato.
+As you can see, I was curious about what would happen if I converted an empty and non-empty string value to a boolean. Python won't throw an error, but will return `True` for any non-emtpy string value and `False` for an empty string. Neato.  
+Python has your regular `integer` and `float` types but also has a `complex` numeric type for the more mathematically inclined:
+**PROGRAM**
+```python3
+print(2j + 3j)
+print(complex("5j"))
+```
+**OUTPUT**
+```
+print(2j + 3j)
+print(complex("5j"))
+```
