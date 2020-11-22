@@ -3,11 +3,11 @@ I'm trying to learn python because it might come in handy to know at some point 
 
 ### To Begin With
 Every programming tutorial conventionally starts with the "Hello, World!" program. Here it is in Python:  
-**Program:**
+**PROGRAM**
 ```python3
 print("Hello World!")
 ```
-**Output:**
+**OUTPUT**
 ```
 Hello World!
 ```
