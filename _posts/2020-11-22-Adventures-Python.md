@@ -140,13 +140,86 @@ After learning the basics of the language, the tutorial moves us on to learn abo
 ```python3
 list = [1, 2, 3, "this is a list"]
 print(list)
+list[2] = 4.5
 print(list[-2])
 print(list[1])
 ```
 **OUTPUT**
 ```
 [1, 2, 3, 'this is a list']
-3
+4.5
 2
 ```
 One interesting thing to note is that we can go backwards in a list starting from the last item of the list using the index `-1`.  
+The next structure that we are introduced to is similar to a list, however, unlike a list, it's immutable. This type of data structure is called a "tuple".  
+**PROGRAM**
+```python3
+tuple = (1, 2, 3)
+print(tuple[1])
+tuple[0] = "haha"
+print(tuple)
+```
+**OUTPUT**
+```
+2
+Traceback (most recent call last):
+  File "main.py", line 3, in <module>
+    tuple[0] = "haha"
+TypeError: 'tuple' object does not support item assignment
+```
+As you can see, trying to assign a value to an element in a tuple results in a run-time error.  
+This section of the tutorial introduces the interesting operator `del`.  
+**PROGRAM**
+```python3
+num = 10.0
+string = "This is a test string"
+t1 = (3, 8, 12, 69)
+l1 = ["apples", "tofu", "oranges", "tea"]
+
+print(num, string, t1, l1)
+
+del num
+del string
+del t1
+del l1
+
+print(num)
+```
+**OUTPUT**
+```
+10.0 This is a test string (3, 8, 12, 69) ['apples', 'tofu', 'oranges', 'tea']
+Traceback (most recent call last):
+  File "main.py", line 13, in <module>
+    print(num)
+NameError: name 'num' is not defined
+```
+I played around with `del` to see if it could delete things like numbers, strings, tuples, and lists, and it can certainly handle that. I'm not sure what `del` is really good for yet but I'm sure it has it's uses.  
+Next up is the good old programming standyby: the string.  
+**PROGRAM**
+```python3
+test = "here there be dragons"
+test1 = '''this
+is
+another
+string'''
+
+print(test1)
+print(test[3] + test[-1])
+# slicing in python
+print(test[1:4])
+list = ["this", "is", "cool"]
+print(list[:-1])
+print("the thing" * 5)
+```
+**OUTPUT**
+```
+this
+is
+another
+string
+es
+ere
+['this', 'is']
+the thingthe thingthe thingthe thingthe thing
+```
+We can define, concatenate, and slice strings! I was curious if the slicing syntax worked for lists as well and it does, so I'm assuming it works for tuples as well. I also like the ability to repeat a string by using the `*` operator. Cool.  
