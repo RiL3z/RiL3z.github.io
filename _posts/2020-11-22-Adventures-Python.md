@@ -223,3 +223,36 @@ ere
 the thingthe thingthe thingthe thingthe thing
 ```
 We can define, concatenate, and slice strings! I was curious if the slicing syntax worked for lists as well and it does, so I'm assuming it works for tuples as well. I also like the ability to repeat a string by using the `*` operator. Cool.  
+"Sets" are next. Here's some cool stuff we can do with them:  
+**PROGRAM**
+```python3
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+
+# union operation
+print(set1 | set2)
+# subtraction
+print(set2 - set1)
+# intersection
+print(set1 & set2)
+
+# add multiple elements at once
+set1.update([4, 10, 12])
+print(set1)
+# add one element
+set2.add("ComPuTeR")
+print(set2)
+# remove one element
+set1.remove(1)
+print(set1)
+```
+**OUTPUT**
+```
+{1, 2, 3, 4, 5}
+{4, 5}
+{3}
+{1, 2, 3, 4, 10, 12}
+{3, 4, 5, 'ComPuTeR'}
+{2, 3, 4, 10, 12}
+```
+I am really enjoying the fact that sets are so readily available to be worked with in Python. Most often we don't directly deal with the notion of a set in a programming language (and we use arrays as a substitute) so the fact that python supports this is very awesome indeed!  
