@@ -94,7 +94,7 @@ print("The bastard","took all my m&ms!")
 ```
 The bastard took all my m&ms!
 ````
-The next thing introduced is implicit type conversion:
+The next thing introduced is implicit type conversion:  
 **PROGRAM**
 ```python3
 someInt = 2
@@ -131,6 +131,6 @@ print(complex("5j"))
 ```
 **OUTPUT**
 ```
-print(2j + 3j)
-print(complex("5j"))
+5j
+5j
 ```
