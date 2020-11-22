@@ -29,7 +29,7 @@ print(2 ** 3)
 6
 8
 ```
-What's interesting to note is that Python has native operators for floor division (`\\`) and exponents (`**`), which I think is quite nice, because we don't have to go running off writing our own functions for these operations. Of course we can do a re-assignment of a variable while performing some operation in one concise step as well:  
+What's interesting to note is that Python has native operators for floor division (`\\`) and exponents (`**`), which I think is quite nice because we don't have to go running off writing our own functions for these operations. Of course we can do a re-assignment of a variable while performing some operation in one concise step as well:  
 **PROGRAM**
 ```python3
 test = 8
@@ -123,7 +123,7 @@ False
 2.657
 ```
 As you can see, I was curious about what would happen if I converted an empty and non-empty string value to a boolean. Python won't throw an error, but will return `True` for any non-emtpy string value and `False` for an empty string. Neato.  
-Python has your regular `integer` and `float` types but also has a `complex` numeric type for the more mathematically inclined:
+Python has your regular `integer` and `float` types but also has a `complex` numeric type for the more mathematically inclined:  
 **PROGRAM**
 ```python3
 print(2j + 3j)
@@ -134,3 +134,19 @@ print(complex("5j"))
 5j
 5j
 ```
+# Data Structures
+After learning the basics of the language, the tutorial moves us on to learn about the data structures that are native to Python. The first one we learn about is the "list" structure:  
+**PROGRAM**
+```python3
+list = [1, 2, 3, "this is a list"]
+print(list)
+print(list[-2])
+print(list[1])
+```
+**OUTPUT**
+```
+[1, 2, 3, 'this is a list']
+3
+2
+```
+One interesting thing to note is that we can go backwards in a list starting from the last item of the list using the index `-1`.  
