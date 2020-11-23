@@ -448,8 +448,7 @@ You can run this code and it executes just fine. In Python you can easily define
 import random
 
 class Animal:
-    def __init__(self, pos):
-        self.position = pos
+    pass
             
 class Bear(Animal):
     def __repr__(self):
@@ -462,22 +461,27 @@ class Fish(Animal):
 def getAnimal(i):
     r = random.randint(0, 2)
     if r == 0:
-        return Bear(i)
+        return Bear()
     elif r == 1:
-        return Fish(i)
+        return Fish()
     else:
         return None
-        
-river = list(map(getAnimal, range(0, 5)))
+
+def make_river(river_size):
+    return list(map(getAnimal, range(0, river_size)))
         
 # TESTING
-print(river)
-print(issubclass(type(river[0]), Animal))
+print(make_river(5))
+print(make_river(10))
+print(make_river(2))
+print(make_river(8))
 ```
 **OUTPUT**
 ```
-[None, Bear, Fish, Fish, Fish]
-False
+[Bear, Bear, Bear, Fish, None]
+[None, Bear, Bear, Bear, None, None, Fish, Fish, Fish, None]
+[None, Bear]
+[None, Bear, None, Bear, Bear, Fish, None, Bear]
 ```
 So, now that I can generate randomly sized "rivers" populated with different `Animal` or `None` objects, I think the next thing to do is code what happens when the animals start moving around and breeding or eating each other.  
 **PROGRAM**
