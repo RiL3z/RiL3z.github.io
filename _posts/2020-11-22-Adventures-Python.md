@@ -423,3 +423,64 @@ print(p.tostring())
 This person's name is: Kelan and their age is: 28!
 ```
 Here I've defined a simple `Person` class that has two attributes, a `name` and an `age` and I've defined a method of that class that uses those attributes.
+### A Project
+There is of course more to learn in regards to Python but I think we have a good basis on which to build out a project from. I've taken inspiration for a problem to work on with Python from a book I possess from my college days: *Data Structures and Algorithms* by Michael Goodrich, Roberto Tamassia, and Michael Goldwasser. Problem P-2.31 on page 100 reads:  
+> Write a Java program to simulate an ecosystem containing two types of creatures, ***bears*** and ***fish***. The ecosystem consists of a river, which is modeled as a relatively large array. Each cell of the array should contain an `Animal` object, which can be a `Bear` object, a `Fish` object, or **null**. In each time step, based on a random process, each animal either attempts to move into an adjacent array cell or stay where it is. If two animals of the same type are about to collide in the same cell, then they stay where they are, but they create a new instance of that type of animal, which is placed in a random empty (i.e., previously **null**) cell in the array. If a bear and a fish collide, however, then the fish dies (i.e., it disappears). Use actual object creation, via the **new** operator, to model the creation of new objects, and provide a visualization of the array after each time step.
+This problem was intended to be solved ind Java but we can adapt it for learning Python as well. As you can see, the authors are trying to hammer home object orientation as well, so we will use some object oriented features of the Python language in our solution.  
+So, we need to simulate the river that the bears and fish live in, so we can create a `River`, `Animal`, `Fish`, and `Bear` class. We can use that handy `pass` keyword to avoid having to define bodies for these classes for the time being.  
+```python3
+class River:
+    class Animal:
+        pass
+    
+    class Bear(Animal):
+        pass
+    
+    class Fish(Animal):
+        pass
+    
+    def __init__(self):
+        self.river_array = []
+```
+You can run this code and it executes just fine. In Python you can easily define a class within another class. Here I'm defining the `Animal`, `Bear`, and `Fish` class within the `River` class because only the `River` should need access to new instances of `Fish` and `Bear`. Now to begin with, we should probably be able to instantiate a `River` object by passing the `River`'s size as an argument to the constructor method. Here I added some code to do that. I'm using a list to represent the river and instantiating all the elements as either `Bear`, `Fish`, or the special `None` objects, based off a random number generator.  
+**PROGRAM**
+```python3
+import random
+
+class Animal:
+    def __init__(self, pos):
+        self.position = pos
+            
+class Bear(Animal):
+    def __repr__(self):
+        return "Bear"
+
+class Fish(Animal):
+    def __repr__(self):
+        return "Fish"
+                    
+def getAnimal(i):
+    r = random.randint(0, 2)
+    if r == 0:
+        return Bear(i)
+    elif r == 1:
+        return Fish(i)
+    else:
+        return None
+        
+river = list(map(getAnimal, range(0, 5)))
+        
+# TESTING
+print(river)
+print(issubclass(type(river[0]), Animal))
+```
+**OUTPUT**
+```
+[None, Bear, Fish, Fish, Fish]
+False
+```
+So, now that I can generate randomly sized "rivers" populated with different `Animal` or `None` objects, I think the next thing to do is code what happens when the animals start moving around and breeding or eating each other.  
+**PROGRAM**
+```python3
+
+```
