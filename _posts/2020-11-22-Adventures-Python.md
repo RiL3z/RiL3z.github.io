@@ -77,7 +77,7 @@ Entering the string `this is some input` for STDIN:
 Enter some text here:
 this is some input
 ```
-To make a single line comment in the source code we can use `#` (the pount sign). We can also make multi-line comments:  
+To make a single line comment in the source code we can use `#` (the pound sign). We can also make multi-line comments:  
 **PROGRAM**
 ```python3
 # hey there I'm a sexy one-line comment
