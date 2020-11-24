@@ -865,6 +865,6 @@ There is no more room to spawn new animals in the river!
 Bear at index: 19 tried to move right but is out of space, so they stayed put.
 [Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear]
 ```
-As you can see, because bears can eat fish but not vice-versa, as the simulation plays out the bears eventually outbreed and eat all the fish :rofl:!  
+As you can see, because bears can eat fish but not vice-versa, as the simulation plays out the bears eventually outbreed and eat all the fish!  
 Of course there is more to learn in regards to python, but I think solving this problem gives us a good basis to starting coding from.  
 Happy coding!
