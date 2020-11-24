@@ -222,7 +222,7 @@ ere
 ['this', 'is']
 the thingthe thingthe thingthe thingthe thing
 ```
-We can define, concatenate, and slice strings! I was curious if the slicing syntax worked for lists as well and it does, so I'm assuming it works for tuples as too. I also like the ability to repeat a string by using the `*` operator. Cool.  
+We can define, concatenate, and slice strings! I was curious if the slicing syntax worked for lists as well and it does, so I'm assuming it works for tuples too. I also like the ability to repeat a string by using the `*` operator. Cool.  
 "Sets" are next. Here's some cool stuff we can do with them:  
 **PROGRAM**
 ```python3
