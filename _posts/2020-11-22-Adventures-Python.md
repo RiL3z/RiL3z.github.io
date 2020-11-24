@@ -486,5 +486,385 @@ print(make_river(8))
 So, now that I can generate randomly sized "rivers" populated with different `Animal` or `None` objects, I think the next thing to do is code what happens when the animals start moving around and breeding or eating each other.  
 **PROGRAM**
 ```python3
+import random
 
+class Animal:
+    pass
+            
+class Bear(Animal):
+    def __repr__(self):
+        return "Bear"
+
+class Fish(Animal):
+    def __repr__(self):
+        return "Fish"
+                    
+def getAnimal(i):
+    r = random.randint(0, 2)
+    if r == 0:
+        return Bear()
+    elif r == 1:
+        return Fish()
+    else:
+        return None
+
+def make_river(river_size):
+    return list(map(getAnimal, range(0, river_size)))
+    
+def none_indexes(l):
+    index = 0
+    none_list = []
+    for i in l:
+        if i == None:
+            none_list.append(index)
+        index += 1
+    return none_list
+    
+def choose_random_item(l):
+    if len(l) > 1:
+        return l[random.randint(0, len(l) - 1)]
+    elif len(l) == 1:
+        return l[0]
+    return None
+
+def move_animals(river):
+    i = 0
+    while i < len(river):
+        if issubclass(type(river[i]), Animal):
+            if random.randint(0, 1) == 0:
+                if random.randint(0, 1) == 0:
+                    if i < len(river) - 1:
+                        if type(river[i]) == type(river[i + 1]):
+                            print(river[i], "at index:", i, "met another", river[i + 1], "while moving right. Time to breed!")
+                            rni = choose_random_item(none_indexes(river))
+                            if rni != None:
+                                if type(river[i]) == Bear:
+                                    river[rni] = Bear()
+                                    print(river[rni], "spawned at index:", str(rni) + ".")
+                                else:
+                                    river[rni] = Fish()
+                                    print(river[rni], "spawned at index:", str(rni) + ".")
+                            else:
+                                print("There is no more room to spawn new animals in the river!")
+                        elif type(river[i]) == Bear and type(river[i + 1]) == Fish:
+                            river[i + 1] = river[i]
+                            river[i] = None
+                            print("Bear moved right from index:", i, "and ate Fish at index:", str(i + 1) + ".")
+                            i += 1
+                        elif type(river[i]) == Fish and type(river[i + 1]) == Bear:
+                            river[i] = None
+                            print("Fish swam right from index:", i, "and was eaten by Bear at index:", str(i + 1) + ".")
+                        else:
+                            print(river[i], "at index:", i, "moved right.")
+                            river[i + 1] = river[i]
+                            river[i] = None
+                            i += 1
+                            
+                    else:
+                        print(river[i],"at index:", i, "tried to move right but is out of space, so they stayed put.")
+                else:
+                    if i > 0:
+                        if type(river[i]) == type(river[i - 1]):
+                            print(river[i], "at index:", i, "met another", river[i - 1], "while moving left. Time to breed!")
+                            rni = choose_random_item(none_indexes(river))
+                            if rni != None:
+                                if type(river[i]) == Bear:
+                                    river[rni] = Bear()
+                                    print(river[rni], "spawned at index:", str(rni) + ".")
+                                else:
+                                    river[rni] = Fish()
+                                    print(river[rni], "spawned at index:", str(rni) + ".")
+                            else:
+                                print("There is no more room to spawn new animals in the river!")
+                        elif type(river[i]) == Bear and type(river[i - 1]) == Fish:
+                            river[i - 1] = river[i]
+                            river[i] = None
+                            print("Bear moved left from index:", i, "and ate fish at index:", str(i - 1) + ".")
+                        elif type(river[i]) == Fish and type(river[i - 1]) == Bear:
+                            river[i] = None
+                            print("Fish swam left from index:", i, "and was eaten by Bear at index:", str(i - 1) + ".")
+                        else:
+                            print(river[i], "at index:", i, "moved left.")
+                            river[i - 1] = river[i]
+                            river[i] = None
+                    else:
+                        print(river[i],"at index:", i, "tried to move left but is out of space, so they stayed put.")
+            else:
+                print(river[i],"at index:", i, "chose not to move.")
+        i += 1
+    
+        
+time_steps = 10
+river_size = 20
+river = make_river(river_size)
+for i in range(0, time_steps):
+    print("River state:")
+    print(river)
+    move_animals(river)
+print(river)
 ```
+**OUTPUT**
+```
+River state:
+[Fish, Bear, None, None, Fish, Fish, Bear, None, None, Bear, Fish, None, Bear, Bear, Bear, Fish, None, Bear, None, Fish]
+Fish at index: 0 chose not to move.
+Bear at index: 1 chose not to move.
+Fish at index: 4 chose not to move.
+Fish at index: 5 chose not to move.
+Bear at index: 6 chose not to move.
+Bear at index: 9 chose not to move.
+Fish swam left from index: 10 and was eaten by Bear at index: 9.
+Bear at index: 12 chose not to move.
+Bear at index: 13 met another Bear while moving left. Time to breed!
+Bear spawned at index: 2.
+Bear at index: 14 chose not to move.
+Fish at index: 15 chose not to move.
+Bear at index: 17 chose not to move.
+Fish at index: 19 chose not to move.
+River state:
+[Fish, Bear, Bear, None, Fish, Fish, Bear, None, None, Bear, None, None, Bear, Bear, Bear, Fish, None, Bear, None, Fish]
+Fish at index: 0 chose not to move.
+Bear at index: 1 met another Bear while moving right. Time to breed!
+Bear spawned at index: 18.
+Bear at index: 2 chose not to move.
+Fish at index: 4 moved left.
+Fish at index: 5 moved left.
+Bear at index: 6 moved right.
+Bear at index: 9 moved right.
+Bear at index: 12 moved left.
+Bear at index: 13 chose not to move.
+Bear moved right from index: 14 and ate Fish at index: 15.
+Bear at index: 17 chose not to move.
+Bear at index: 18 chose not to move.
+Fish at index: 19 chose not to move.
+River state:
+[Fish, Bear, Bear, Fish, Fish, None, None, Bear, None, None, Bear, Bear, None, Bear, None, Bear, None, Bear, Bear, Fish]
+Fish swam right from index: 0 and was eaten by Bear at index: 1.
+Bear at index: 1 chose not to move.
+Bear at index: 2 chose not to move.
+Fish at index: 3 chose not to move.
+Fish at index: 4 chose not to move.
+Bear at index: 7 chose not to move.
+Bear at index: 10 chose not to move.
+Bear at index: 11 chose not to move.
+Bear at index: 13 chose not to move.
+Bear at index: 15 moved left.
+Bear at index: 17 chose not to move.
+Bear at index: 18 chose not to move.
+Fish at index: 19 chose not to move.
+River state:
+[None, Bear, Bear, Fish, Fish, None, None, Bear, None, None, Bear, Bear, None, Bear, Bear, None, None, Bear, Bear, Fish]
+Bear at index: 1 chose not to move.
+Bear at index: 2 met another Bear while moving left. Time to breed!
+Bear spawned at index: 16.
+Fish at index: 3 chose not to move.
+Fish at index: 4 chose not to move.
+Bear at index: 7 moved right.
+Bear at index: 10 met another Bear while moving right. Time to breed!
+Bear spawned at index: 5.
+Bear at index: 11 chose not to move.
+Bear at index: 13 met another Bear while moving right. Time to breed!
+Bear spawned at index: 0.
+Bear at index: 14 met another Bear while moving left. Time to breed!
+Bear spawned at index: 6.
+Bear at index: 16 moved left.
+Bear at index: 17 chose not to move.
+Bear at index: 18 met another Bear while moving left. Time to breed!
+Bear spawned at index: 7.
+Fish at index: 19 tried to move right but is out of space, so they stayed put.
+River state:
+[Bear, Bear, Bear, Fish, Fish, Bear, Bear, Bear, Bear, None, Bear, Bear, None, Bear, Bear, Bear, None, Bear, Bear, Fish]
+Bear at index: 0 chose not to move.
+Bear at index: 1 chose not to move.
+Bear at index: 2 chose not to move.
+Fish at index: 3 met another Fish while moving right. Time to breed!
+Fish spawned at index: 12.
+Fish swam right from index: 4 and was eaten by Bear at index: 5.
+Bear at index: 5 met another Bear while moving right. Time to breed!
+Bear spawned at index: 4.
+Bear at index: 6 met another Bear while moving right. Time to breed!
+Bear spawned at index: 16.
+Bear at index: 7 met another Bear while moving right. Time to breed!
+Bear spawned at index: 9.
+Bear at index: 8 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 9 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 10 chose not to move.
+Bear at index: 11 chose not to move.
+Fish at index: 12 chose not to move.
+Bear moved left from index: 13 and ate fish at index: 12.
+Bear at index: 14 moved left.
+Bear at index: 15 chose not to move.
+Bear at index: 16 chose not to move.
+Bear at index: 17 met another Bear while moving right. Time to breed!
+Bear spawned at index: 14.
+Bear moved right from index: 18 and ate Fish at index: 19.
+River state:
+[Bear, Bear, Bear, Fish, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, None, Bear]
+Bear at index: 0 chose not to move.
+Bear at index: 1 met another Bear while moving left. Time to breed!
+Bear spawned at index: 18.
+Bear at index: 2 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Fish at index: 3 chose not to move.
+Bear at index: 4 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 5 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 6 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 7 chose not to move.
+Bear at index: 8 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 9 chose not to move.
+Bear at index: 10 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 11 chose not to move.
+Bear at index: 12 chose not to move.
+Bear at index: 13 chose not to move.
+Bear at index: 14 chose not to move.
+Bear at index: 15 chose not to move.
+Bear at index: 16 chose not to move.
+Bear at index: 17 chose not to move.
+Bear at index: 18 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 19 chose not to move.
+River state:
+[Bear, Bear, Bear, Fish, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear]
+Bear at index: 0 tried to move left but is out of space, so they stayed put.
+Bear at index: 1 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 2 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Fish at index: 3 chose not to move.
+Bear moved left from index: 4 and ate fish at index: 3.
+Bear at index: 5 chose not to move.
+Bear at index: 6 met another Bear while moving right. Time to breed!
+Bear spawned at index: 4.
+Bear at index: 7 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 8 chose not to move.
+Bear at index: 9 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 10 chose not to move.
+Bear at index: 11 chose not to move.
+Bear at index: 12 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 13 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 14 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 15 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 16 chose not to move.
+Bear at index: 17 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 18 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 19 chose not to move.
+River state:
+[Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear]
+Bear at index: 0 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 1 chose not to move.
+Bear at index: 2 chose not to move.
+Bear at index: 3 chose not to move.
+Bear at index: 4 chose not to move.
+Bear at index: 5 chose not to move.
+Bear at index: 6 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 7 chose not to move.
+Bear at index: 8 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 9 chose not to move.
+Bear at index: 10 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 11 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 12 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 13 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 14 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 15 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 16 chose not to move.
+Bear at index: 17 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 18 chose not to move.
+Bear at index: 19 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+River state:
+[Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear]
+Bear at index: 0 chose not to move.
+Bear at index: 1 chose not to move.
+Bear at index: 2 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 3 chose not to move.
+Bear at index: 4 chose not to move.
+Bear at index: 5 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 6 chose not to move.
+Bear at index: 7 chose not to move.
+Bear at index: 8 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 9 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 10 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 11 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 12 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 13 chose not to move.
+Bear at index: 14 chose not to move.
+Bear at index: 15 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 16 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 17 chose not to move.
+Bear at index: 18 chose not to move.
+Bear at index: 19 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+River state:
+[Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear]
+Bear at index: 0 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 1 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 2 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 3 chose not to move.
+Bear at index: 4 chose not to move.
+Bear at index: 5 chose not to move.
+Bear at index: 6 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 7 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 8 chose not to move.
+Bear at index: 9 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 10 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 11 chose not to move.
+Bear at index: 12 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 13 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 14 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 15 chose not to move.
+Bear at index: 16 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 17 met another Bear while moving left. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 18 met another Bear while moving right. Time to breed!
+There is no more room to spawn new animals in the river!
+Bear at index: 19 tried to move right but is out of space, so they stayed put.
+[Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear, Bear]
+```
+As you can see, because bears can eat fish but not vice-versa, as the simulation plays out the bears eventually outbreed and eat all the fish :rofl:!  
+Of course there is more to learn in regards to python, but I think solving this problem gives us a good basis to starting coding from.  
+Happy coding!
