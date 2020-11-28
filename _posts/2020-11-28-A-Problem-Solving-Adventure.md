@@ -8,3 +8,15 @@ In an attempt to stay sharp, I've decided that I could work a bit more on my pro
 
 Here is Figure 3.2, the simplified map of Romania.
 ![romania](/assets/romania.JPG)
+I like to tackle my problems piece-meal so, reading the first part of the problem description:
+> Suppose two friends live in different cities on a map, such as the Romania map shown in Figure 3.2.  
+
+Let us suppose we have two friends, I am going to call them "Jack" and "Jill". Suppose further that Jack lives in **Oradea** and Jill lives in **Bucharest**.  
+Ok, with this in mind, onto the next piece of the problem description:
+>On every turn, we can simultaneously move each friend to a neighboring city on the map.  
+
+Alright, so let's assume it's *turn 0*. That means Jack is in the city **Oradea** and Jill is in **Bucharest**. What can happen on *turn 1*? Well, according to the rules of this game, we can move each friend to a neighboring city on the map. So we could choose to move Jack to **Zerind** or **Sibiu** and we could choose to move Jill to **Fagaras**, **Pitesti**, **Giurgiu**, or **Urziceni**, since those are all neighboring cities to our two characters.  
+Onto the next piece:
+> The amount of time needed to move from city *i* to neighbor *j* is equal to the road distance *d(i,j)* between cities,  
+
+Alrighty. So if Jack moves from **Oradea** to **Sibiu**, looking at the map and the distances given, it is going to take him *d(**Oradea**,**Sibiu**)* = 151 units of time. If Jill moves from **Bucharest** to **Pitesti** it's going to take her *d(**Bucharest**,**Pitesti**)* = 101 units of time.
