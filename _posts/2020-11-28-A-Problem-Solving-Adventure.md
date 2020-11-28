@@ -55,3 +55,5 @@ So, putting together everything into a concise problem formulation, we have this
 
 So, we have our answer to question **a**. Onto question **b**:  
 > Let *D(i,j)* be the straight-line distance between cities *i* and *j*. Which of the following heuristic functions are admissable? (i) *D(i,j)*; (ii) 2 * *D(i,j)*; (iii) *D(i,j)*/2.
+
+So, *D(i,j)* is the distance from city *i* to city *j* as the crow flies. We are given three heuristic functions: *D(i,j)*, 2 * *D(i,j)*, and *D(i,j)*/2, and we have to determine which of these functions is considered admissable. The first thing to understand is *what is a heuristic function?* According the book, a heuristic function, defined as *h(n)*, is "the estimated cost of the cheapest path from the state at node *n* to a goal state.
