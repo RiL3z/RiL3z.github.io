@@ -19,4 +19,10 @@ Alright, so let's assume it's *turn 0*. That means Jack is in the city **Oradea*
 Onto the next piece:
 > The amount of time needed to move from city *i* to neighbor *j* is equal to the road distance *d(i,j)* between cities,  
 
-Alrighty. So if Jack moves from **Oradea** to **Sibiu**, looking at the map and the distances given, it is going to take him *d(**Oradea**,**Sibiu**)* = 151 units of time. If Jill moves from **Bucharest** to **Pitesti** it's going to take her *d(**Bucharest**,**Pitesti**)* = 101 units of time.
+Alrighty. So if Jack moves from **Oradea** to **Sibiu**, looking at the map and the distances given, it is going to take him *d(**Oradea**,**Sibiu**)* = 151 units of time. If Jill moves from **Bucharest** to **Pitesti** it's going to take her *d(**Bucharest**,**Pitesti**)* = 101 units of time.  
+> but on each turn the friend that arrives first must wait until the other one arrives (and calls the first on his/her cell phone) before the next turn can begin.  
+
+So, if Jack moves from **Oradea** to **Zerind** and Jill moves from **Bucharest** to **Fagaras** within a turn, then once Jack has arrived in **Zerind** he is going to have to wait for Jill to arrive in **Fagaras** and call him on her cell phone so that the next turn can begin because *d(**Oradea**,**Zerind**)* < *d(**Bucharest**,**Fagaras**)*. (This is based off the two assumptions that Jack and Jill hit the road at the same time at the start of every turn and also that they both drive at the same rate. This last assumption may be a bad one because perhaps Jill is a speed demon.)
+> We want the two friends to meet as quickly as possible.
+
+Ok, so the objective is really to minimize the distance traveled by the two since distance = time in this problem. If Jack calls Jill and tells her that he's going to meet her in **Bucharest** (meaning Jill doesn't have to travel), he could choose to travel from **Oradea** to **Zerind** to **Arad** to **Timisoara** to **Lugoj** to **Mehadia** to **Drobeta** to **Craiova** to **Pitesti** to **Bucharest**. This is obviously not the optimal way of doing things since the total distance Jack traveled is *d(**Oradea**,**Zerind**)* + *d(**Zerind**,**Arad**)* + 
