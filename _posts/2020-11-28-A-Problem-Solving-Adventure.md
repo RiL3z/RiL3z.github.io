@@ -6,3 +6,5 @@ In an attempt to stay sharp, I've decided that I could work a bit more on my pro
 **c.** Are there completely connected maps for which no solution exists?  
 **d.** Are there maps in which all solutions require one friend to vist the same city twice?
 
+Here is Figure 3.2, the simplified map of Romania.
+![romania](/assets/romania.jpg)
