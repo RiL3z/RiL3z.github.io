@@ -61,7 +61,7 @@ So, *D(i,j)* is the distance from city *i* to city *j* as the crow flies. We are
 On to **c**:
 > Are there completely connected maps for which no solution exists?  
 
-First, what is meant by a *completely connected* map? I assuming the authors mean a map where all cities are connected by roads, that is, every city is reachable through a path from another city. If we are provided a completely connected map in this sense, then there is **ALWAYS** a city that Jack and Jill can meet up in, since they can always travel to any city within the map. So the concise answer to problem **c** is: **No**.
+First, what is meant by a *completely connected* map? I'm assuming the authors mean a map where all cities are connected by roads, that is, every city is reachable through a path from another city. If we are provided a completely connected map in this sense, then there is **ALWAYS** a city that Jack and Jill can meet up in, since they can always travel to any city within the map. So the concise answer to problem **c** is: **No**.
 
 On to **d**:  
 > Are there maps in which all solutions require one friend to visit the same city twice?
