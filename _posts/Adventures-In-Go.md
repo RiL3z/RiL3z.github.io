@@ -1,0 +1,1 @@
+I think it would be wise for me to get a better handle on the go programming language.  I've used it somewhat in the past, but that use was mostly small code changes to an existing application.  A deeper dive would probably benefit me!
