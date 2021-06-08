@@ -28,7 +28,7 @@ func main() {
 	fmt.Println("My favorite number is", rand.Intn(10))
 }
 ```
-As you can see, we've imported two packages, `fmt` and `math/rand`.  `fmt` has functions for printing to the console--among other things-- and `math/rand` has a `Intn` function that can be use to generate a random integer.
+As you can see, we've imported two packages, `fmt` and `math/rand`.  `fmt` has functions for printing to the console--among other things-- and `math/rand` has a `Intn` function that can be use to generate a random integer.  
 OUTPUT
 ```
 My favorite number is 1
